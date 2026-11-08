@@ -4,7 +4,7 @@
 
 **Ícones que se comportam como texto.**
 
-292 ícones de traço numa grade de 24px, incluindo **redes sociais**, feitos para acompanhar o [salve-css](../salve). Eles herdam a cor e o tamanho do texto ao redor, alinham-se à linha de base e funcionam com ou sem JavaScript. Têm componentes React prontos para **Server Components e SSR**.
+292 ícones de traço numa grade de 24px, incluindo **redes sociais**, feitos para acompanhar o [salve-css](https://github.com/juliocarneiro/salve-css). Eles herdam a cor e o tamanho do texto ao redor, alinham-se à linha de base e funcionam com ou sem JavaScript. Têm componentes React prontos para **Server Components e SSR**.
 
 `npm i salve-icons` · zero dependências · React opcional · MIT
 
