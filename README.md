@@ -82,7 +82,8 @@ import "salve-icons/element";                      // <s-icon>
 |---|---|
 | `salve-icons/css` | `dist/salve-icons.css`: `.si` and `.si-<name>` classes |
 | `salve-icons/react` | `dist/react.js` (+ types): `<Icon name>` and one component per icon (`<CheckIcon />`) |
-| `salve-icons/sprite.svg` | `dist/sprite.svg`: every icon as a `<symbol>` |
+| `salve-icons/sprite` | `dist/sprite.js` (+ types): `injectSprite()`, `spriteSheet` and `useIcon()` for an in-page sprite |
+| `salve-icons/sprite.svg` | `dist/sprite.svg`: every icon as a `<symbol>` (external file) |
 | `salve-icons` | `dist/index.js` (+ types): SVG strings and the `svg()` helper |
 | `salve-icons/element` | `dist/element.js`: the `<s-icon>` web component |
 | `salve-icons/svg/<name>.svg` | individual SVG files |
@@ -140,17 +141,25 @@ import { CheckIcon, TrashIcon, GithubIcon, Icon } from "salve-icons/react";
 
 ### 3. SVG sprite
 
-Best when you want to **control the stroke width** from CSS, or when a page uses many icons.
+Best when you want to **control the stroke width** from CSS, or when a page uses many icons. Put the sprite **inside the page** once and point at it with `#si-<name>`: zero network requests, no matter how many icons you create later.
 
-```html
-<svg class="si-svg" aria-hidden="true"><use href="/sprite.svg#check"/></svg>
+```js
+import { injectSprite, useIcon } from "salve-icons/sprite";
+
+injectSprite();                       // once, in the browser
+button.innerHTML = useIcon("check");  // <svg class="si-svg"><use href="#si-check"/></svg>
 ```
 
-Copy `node_modules/salve-icons/dist/sprite.svg` into your public folder. The salve-icons CSS already includes the `.si-svg` class (stroke, color and size). Without it, apply `fill: none; stroke: currentColor; stroke-width: 1.75; stroke-linecap: round; stroke-linejoin: round`.
-
 ```html
-<svg class="si-svg" style="--si-stroke: 1.25"><use href="/sprite.svg#heart"/></svg>
+<svg class="si-svg" aria-hidden="true"><use href="#si-check"/></svg>
+<svg class="si-svg" style="--si-stroke: 1.25"><use href="#si-heart"/></svg>
 ```
+
+**SSR:** print `spriteSheet` once at the top of `<body>` instead of calling `injectSprite()` (in React: `<div dangerouslySetInnerHTML={{ __html: spriteSheet }} />`). In-page ids are prefixed with `si-`, so they never clash with ids on your page.
+
+The salve-icons CSS already includes the `.si-svg` class (stroke, color and size). Without it, apply `fill: none; stroke: currentColor; stroke-width: 1.75; stroke-linecap: round; stroke-linejoin: round`.
+
+> **Why not `<use href="/sprite.svg#check">`?** It works for icons that are in the HTML from the start. But every `<use>` that points at an *external* file and is created later (a modal, a filtered list, React re-renders) makes the browser request the file again. With the default headers of hosts like Vercel (`max-age=0, must-revalidate`) that's one round trip per icon, and the icon shows up late. If you do use the external file, serve it with a cache header such as `Cache-Control: public, max-age=31536000, immutable` (with a versioned file name). CSS classes, React components, the JS module and `<s-icon>` never have this issue: they draw the SVG in the page.
 
 ### 4. JavaScript module
 
