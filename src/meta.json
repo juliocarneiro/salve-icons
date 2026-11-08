@@ -1,0 +1,2700 @@
+[
+  {
+    "name": "activity",
+    "category": "data",
+    "tags": [
+      "pulse",
+      "health",
+      "monitor",
+      "atividade"
+    ]
+  },
+  {
+    "name": "alarm-clock",
+    "category": "time",
+    "tags": [
+      "alarme",
+      "despertador",
+      "wake"
+    ]
+  },
+  {
+    "name": "alert-circle",
+    "category": "status",
+    "tags": [
+      "error",
+      "erro",
+      "warning"
+    ]
+  },
+  {
+    "name": "alert-triangle",
+    "category": "status",
+    "tags": [
+      "warning",
+      "atenção",
+      "caution"
+    ]
+  },
+  {
+    "name": "align-center",
+    "category": "editor",
+    "tags": [
+      "text",
+      "centralizar"
+    ]
+  },
+  {
+    "name": "align-left",
+    "category": "editor",
+    "tags": [
+      "text",
+      "alinhar esquerda"
+    ]
+  },
+  {
+    "name": "align-right",
+    "category": "editor",
+    "tags": [
+      "text",
+      "alinhar direita"
+    ]
+  },
+  {
+    "name": "anchor",
+    "category": "travel",
+    "tags": [
+      "âncora",
+      "marine",
+      "port"
+    ]
+  },
+  {
+    "name": "app-window",
+    "category": "interface",
+    "tags": [
+      "browser",
+      "janela",
+      "window"
+    ]
+  },
+  {
+    "name": "archive",
+    "category": "actions",
+    "tags": [
+      "box",
+      "arquivar",
+      "storage"
+    ]
+  },
+  {
+    "name": "arrow-down",
+    "category": "arrows",
+    "tags": [
+      "down",
+      "baixo"
+    ]
+  },
+  {
+    "name": "arrow-down-left",
+    "category": "arrows",
+    "tags": [
+      "diagonal"
+    ]
+  },
+  {
+    "name": "arrow-down-right",
+    "category": "arrows",
+    "tags": [
+      "diagonal"
+    ]
+  },
+  {
+    "name": "arrow-left",
+    "category": "arrows",
+    "tags": [
+      "back",
+      "voltar",
+      "esquerda"
+    ]
+  },
+  {
+    "name": "arrow-left-right",
+    "category": "arrows",
+    "tags": [
+      "swap",
+      "horizontal",
+      "trocar"
+    ]
+  },
+  {
+    "name": "arrow-right",
+    "category": "arrows",
+    "tags": [
+      "next",
+      "avançar",
+      "direita"
+    ]
+  },
+  {
+    "name": "arrow-up",
+    "category": "arrows",
+    "tags": [
+      "up",
+      "top",
+      "cima"
+    ]
+  },
+  {
+    "name": "arrow-up-down",
+    "category": "arrows",
+    "tags": [
+      "sort",
+      "vertical",
+      "ordenar"
+    ]
+  },
+  {
+    "name": "arrow-up-left",
+    "category": "arrows",
+    "tags": [
+      "diagonal"
+    ]
+  },
+  {
+    "name": "arrow-up-right",
+    "category": "arrows",
+    "tags": [
+      "external",
+      "diagonal"
+    ]
+  },
+  {
+    "name": "at-sign",
+    "category": "communication",
+    "tags": [
+      "mention",
+      "email",
+      "arroba"
+    ]
+  },
+  {
+    "name": "award",
+    "category": "status",
+    "tags": [
+      "medal",
+      "prêmio",
+      "badge",
+      "certificate"
+    ]
+  },
+  {
+    "name": "badge-check",
+    "category": "status",
+    "tags": [
+      "verified",
+      "verificado",
+      "certified"
+    ]
+  },
+  {
+    "name": "ban",
+    "category": "status",
+    "tags": [
+      "block",
+      "proibido",
+      "bloquear",
+      "forbidden"
+    ]
+  },
+  {
+    "name": "banknote",
+    "category": "commerce",
+    "tags": [
+      "cash",
+      "dinheiro",
+      "nota",
+      "bill"
+    ]
+  },
+  {
+    "name": "bar-chart",
+    "category": "data",
+    "tags": [
+      "analytics",
+      "gráfico",
+      "stats",
+      "report"
+    ]
+  },
+  {
+    "name": "barcode",
+    "category": "commerce",
+    "tags": [
+      "código de barras",
+      "product",
+      "scan",
+      "boleto"
+    ]
+  },
+  {
+    "name": "battery",
+    "category": "status",
+    "tags": [
+      "bateria",
+      "power",
+      "energy"
+    ]
+  },
+  {
+    "name": "battery-charging",
+    "category": "status",
+    "tags": [
+      "carregando",
+      "charging"
+    ]
+  },
+  {
+    "name": "battery-low",
+    "category": "status",
+    "tags": [
+      "bateria fraca",
+      "low power"
+    ]
+  },
+  {
+    "name": "bell",
+    "category": "status",
+    "tags": [
+      "notification",
+      "notificação",
+      "alert"
+    ]
+  },
+  {
+    "name": "bell-off",
+    "category": "status",
+    "tags": [
+      "mute",
+      "silenciar"
+    ]
+  },
+  {
+    "name": "bell-ring",
+    "category": "status",
+    "tags": [
+      "alarm",
+      "notification",
+      "tocando"
+    ]
+  },
+  {
+    "name": "bike",
+    "category": "travel",
+    "tags": [
+      "bicycle",
+      "bicicleta",
+      "cycling"
+    ]
+  },
+  {
+    "name": "bluetooth",
+    "category": "status",
+    "tags": [
+      "wireless",
+      "conexão"
+    ]
+  },
+  {
+    "name": "bold",
+    "category": "editor",
+    "tags": [
+      "negrito",
+      "strong",
+      "text"
+    ]
+  },
+  {
+    "name": "book",
+    "category": "files",
+    "tags": [
+      "docs",
+      "documentação",
+      "livro",
+      "read"
+    ]
+  },
+  {
+    "name": "book-open",
+    "category": "lifestyle",
+    "tags": [
+      "read",
+      "ler",
+      "livro aberto",
+      "docs",
+      "guide"
+    ]
+  },
+  {
+    "name": "bookmark",
+    "category": "status",
+    "tags": [
+      "save",
+      "salvar",
+      "favorite"
+    ]
+  },
+  {
+    "name": "braces",
+    "category": "development",
+    "tags": [
+      "json",
+      "code",
+      "curly",
+      "chaves",
+      "object"
+    ]
+  },
+  {
+    "name": "briefcase",
+    "category": "commerce",
+    "tags": [
+      "work",
+      "trabalho",
+      "business"
+    ]
+  },
+  {
+    "name": "bug",
+    "category": "development",
+    "tags": [
+      "erro",
+      "inseto",
+      "debug",
+      "issue"
+    ]
+  },
+  {
+    "name": "building",
+    "category": "travel",
+    "tags": [
+      "company",
+      "empresa",
+      "office",
+      "prédio",
+      "escritório"
+    ]
+  },
+  {
+    "name": "calculator",
+    "category": "commerce",
+    "tags": [
+      "calculadora",
+      "math",
+      "finance"
+    ]
+  },
+  {
+    "name": "calendar",
+    "category": "devices",
+    "tags": [
+      "date",
+      "data",
+      "agenda",
+      "schedule"
+    ]
+  },
+  {
+    "name": "calendar-check",
+    "category": "time",
+    "tags": [
+      "scheduled",
+      "agendado",
+      "event done"
+    ]
+  },
+  {
+    "name": "calendar-plus",
+    "category": "time",
+    "tags": [
+      "new event",
+      "agendar",
+      "novo evento"
+    ]
+  },
+  {
+    "name": "camera",
+    "category": "media",
+    "tags": [
+      "photo",
+      "câmera",
+      "foto"
+    ]
+  },
+  {
+    "name": "car",
+    "category": "travel",
+    "tags": [
+      "carro",
+      "vehicle",
+      "auto",
+      "uber"
+    ]
+  },
+  {
+    "name": "cart",
+    "category": "commerce",
+    "tags": [
+      "shopping",
+      "carrinho",
+      "compra",
+      "buy"
+    ]
+  },
+  {
+    "name": "check",
+    "category": "actions",
+    "tags": [
+      "done",
+      "ok",
+      "confirm",
+      "feito"
+    ]
+  },
+  {
+    "name": "check-circle",
+    "category": "status",
+    "tags": [
+      "success",
+      "sucesso",
+      "done"
+    ]
+  },
+  {
+    "name": "chevron-down",
+    "category": "arrows",
+    "tags": [
+      "expand",
+      "dropdown",
+      "select"
+    ]
+  },
+  {
+    "name": "chevron-left",
+    "category": "arrows",
+    "tags": [
+      "previous",
+      "back"
+    ]
+  },
+  {
+    "name": "chevron-right",
+    "category": "arrows",
+    "tags": [
+      "next",
+      "forward"
+    ]
+  },
+  {
+    "name": "chevron-up",
+    "category": "arrows",
+    "tags": [
+      "collapse",
+      "up"
+    ]
+  },
+  {
+    "name": "chevrons-down",
+    "category": "arrows",
+    "tags": [
+      "bottom",
+      "expand"
+    ]
+  },
+  {
+    "name": "chevrons-left",
+    "category": "arrows",
+    "tags": [
+      "first",
+      "rewind",
+      "início"
+    ]
+  },
+  {
+    "name": "chevrons-right",
+    "category": "arrows",
+    "tags": [
+      "last",
+      "forward",
+      "fim"
+    ]
+  },
+  {
+    "name": "chevrons-up",
+    "category": "arrows",
+    "tags": [
+      "top",
+      "priority"
+    ]
+  },
+  {
+    "name": "chevrons-up-down",
+    "category": "arrows",
+    "tags": [
+      "sort",
+      "select",
+      "ordenar"
+    ]
+  },
+  {
+    "name": "circle",
+    "category": "interface",
+    "tags": [
+      "shape",
+      "round"
+    ]
+  },
+  {
+    "name": "circle-dot",
+    "category": "status",
+    "tags": [
+      "record",
+      "radio",
+      "status"
+    ]
+  },
+  {
+    "name": "circle-minus",
+    "category": "status",
+    "tags": [
+      "remove",
+      "remover"
+    ]
+  },
+  {
+    "name": "circle-plus",
+    "category": "status",
+    "tags": [
+      "add",
+      "adicionar"
+    ]
+  },
+  {
+    "name": "clipboard",
+    "category": "actions",
+    "tags": [
+      "paste",
+      "colar"
+    ]
+  },
+  {
+    "name": "clock",
+    "category": "status",
+    "tags": [
+      "time",
+      "hora",
+      "relógio",
+      "pending"
+    ]
+  },
+  {
+    "name": "cloud",
+    "category": "files",
+    "tags": [
+      "storage",
+      "nuvem",
+      "upload"
+    ]
+  },
+  {
+    "name": "cloud-download",
+    "category": "files",
+    "tags": [
+      "download",
+      "baixar",
+      "nuvem"
+    ]
+  },
+  {
+    "name": "cloud-rain",
+    "category": "weather",
+    "tags": [
+      "chuva",
+      "rain",
+      "weather",
+      "tempo"
+    ]
+  },
+  {
+    "name": "cloud-sun",
+    "category": "weather",
+    "tags": [
+      "parcialmente nublado",
+      "weather",
+      "clima"
+    ]
+  },
+  {
+    "name": "cloud-upload",
+    "category": "files",
+    "tags": [
+      "upload",
+      "enviar",
+      "nuvem"
+    ]
+  },
+  {
+    "name": "code",
+    "category": "files",
+    "tags": [
+      "dev",
+      "html",
+      "código",
+      "brackets"
+    ]
+  },
+  {
+    "name": "codepen",
+    "category": "brands",
+    "tags": [
+      "code",
+      "dev",
+      "playground"
+    ]
+  },
+  {
+    "name": "coffee",
+    "category": "lifestyle",
+    "tags": [
+      "café",
+      "cafe",
+      "drink",
+      "break"
+    ]
+  },
+  {
+    "name": "coins",
+    "category": "commerce",
+    "tags": [
+      "moedas",
+      "money",
+      "finance",
+      "cashback"
+    ]
+  },
+  {
+    "name": "columns",
+    "category": "interface",
+    "tags": [
+      "split",
+      "layout",
+      "colunas"
+    ]
+  },
+  {
+    "name": "command",
+    "category": "development",
+    "tags": [
+      "cmd",
+      "mac",
+      "keyboard",
+      "atalho",
+      "shortcut"
+    ]
+  },
+  {
+    "name": "compass",
+    "category": "travel",
+    "tags": [
+      "bússola",
+      "explore",
+      "direction"
+    ]
+  },
+  {
+    "name": "contact",
+    "category": "communication",
+    "tags": [
+      "id card",
+      "crachá",
+      "identidade",
+      "cpf",
+      "badge"
+    ]
+  },
+  {
+    "name": "copy",
+    "category": "actions",
+    "tags": [
+      "duplicate",
+      "copiar",
+      "clone"
+    ]
+  },
+  {
+    "name": "corner-down-left",
+    "category": "arrows",
+    "tags": [
+      "enter",
+      "return"
+    ]
+  },
+  {
+    "name": "cpu",
+    "category": "development",
+    "tags": [
+      "processor",
+      "chip",
+      "processador",
+      "hardware"
+    ]
+  },
+  {
+    "name": "credit-card",
+    "category": "commerce",
+    "tags": [
+      "payment",
+      "pagamento",
+      "cartão"
+    ]
+  },
+  {
+    "name": "crown",
+    "category": "status",
+    "tags": [
+      "premium",
+      "king",
+      "coroa",
+      "vip"
+    ]
+  },
+  {
+    "name": "database",
+    "category": "development",
+    "tags": [
+      "db",
+      "banco de dados",
+      "storage",
+      "sql"
+    ]
+  },
+  {
+    "name": "diamond",
+    "category": "shapes",
+    "tags": [
+      "losango",
+      "rhombus",
+      "shape"
+    ]
+  },
+  {
+    "name": "discord",
+    "category": "brands",
+    "tags": [
+      "chat",
+      "community",
+      "comunidade",
+      "gaming",
+      "social"
+    ]
+  },
+  {
+    "name": "dollar-sign",
+    "category": "commerce",
+    "tags": [
+      "money",
+      "currency",
+      "dinheiro",
+      "real",
+      "price",
+      "cifrão"
+    ]
+  },
+  {
+    "name": "download",
+    "category": "actions",
+    "tags": [
+      "baixar",
+      "save",
+      "export"
+    ]
+  },
+  {
+    "name": "dribbble",
+    "category": "brands",
+    "tags": [
+      "design",
+      "portfolio",
+      "social"
+    ]
+  },
+  {
+    "name": "droplet",
+    "category": "interface",
+    "tags": [
+      "water",
+      "color",
+      "gota"
+    ]
+  },
+  {
+    "name": "edit",
+    "category": "actions",
+    "tags": [
+      "pencil square",
+      "editar",
+      "write",
+      "compose"
+    ]
+  },
+  {
+    "name": "external-link",
+    "category": "arrows",
+    "tags": [
+      "open",
+      "new tab",
+      "abrir"
+    ]
+  },
+  {
+    "name": "eye",
+    "category": "actions",
+    "tags": [
+      "view",
+      "show",
+      "ver",
+      "mostrar"
+    ]
+  },
+  {
+    "name": "eye-off",
+    "category": "actions",
+    "tags": [
+      "hide",
+      "esconder",
+      "ocultar"
+    ]
+  },
+  {
+    "name": "facebook",
+    "category": "brands",
+    "tags": [
+      "fb",
+      "meta",
+      "social",
+      "rede social"
+    ]
+  },
+  {
+    "name": "figma",
+    "category": "brands",
+    "tags": [
+      "design",
+      "ui",
+      "prototype"
+    ]
+  },
+  {
+    "name": "file",
+    "category": "files",
+    "tags": [
+      "document",
+      "arquivo",
+      "page"
+    ]
+  },
+  {
+    "name": "file-check",
+    "category": "files",
+    "tags": [
+      "approved",
+      "aprovado",
+      "done"
+    ]
+  },
+  {
+    "name": "file-code",
+    "category": "files",
+    "tags": [
+      "source",
+      "código",
+      "script"
+    ]
+  },
+  {
+    "name": "file-plus",
+    "category": "files",
+    "tags": [
+      "new file",
+      "novo arquivo"
+    ]
+  },
+  {
+    "name": "file-text",
+    "category": "files",
+    "tags": [
+      "document",
+      "documento",
+      "text"
+    ]
+  },
+  {
+    "name": "files",
+    "category": "files",
+    "tags": [
+      "documents",
+      "copies",
+      "arquivos"
+    ]
+  },
+  {
+    "name": "film",
+    "category": "media",
+    "tags": [
+      "movie",
+      "filme",
+      "cinema"
+    ]
+  },
+  {
+    "name": "filter",
+    "category": "actions",
+    "tags": [
+      "funnel",
+      "filtrar"
+    ]
+  },
+  {
+    "name": "filter-x",
+    "category": "actions",
+    "tags": [
+      "clear filter",
+      "limpar filtro"
+    ]
+  },
+  {
+    "name": "flag",
+    "category": "status",
+    "tags": [
+      "report",
+      "bandeira",
+      "milestone"
+    ]
+  },
+  {
+    "name": "flame",
+    "category": "status",
+    "tags": [
+      "fire",
+      "hot",
+      "trending",
+      "fogo",
+      "popular"
+    ]
+  },
+  {
+    "name": "folder",
+    "category": "files",
+    "tags": [
+      "directory",
+      "pasta"
+    ]
+  },
+  {
+    "name": "folder-open",
+    "category": "files",
+    "tags": [
+      "directory",
+      "pasta aberta"
+    ]
+  },
+  {
+    "name": "folder-plus",
+    "category": "files",
+    "tags": [
+      "new folder",
+      "nova pasta"
+    ]
+  },
+  {
+    "name": "gamepad",
+    "category": "media",
+    "tags": [
+      "game",
+      "jogo",
+      "controller",
+      "controle"
+    ]
+  },
+  {
+    "name": "gift",
+    "category": "commerce",
+    "tags": [
+      "present",
+      "presente",
+      "reward"
+    ]
+  },
+  {
+    "name": "git-branch",
+    "category": "development",
+    "tags": [
+      "branch",
+      "version control",
+      "git"
+    ]
+  },
+  {
+    "name": "git-commit",
+    "category": "development",
+    "tags": [
+      "commit",
+      "git",
+      "version"
+    ]
+  },
+  {
+    "name": "git-merge",
+    "category": "development",
+    "tags": [
+      "merge",
+      "git"
+    ]
+  },
+  {
+    "name": "git-pull-request",
+    "category": "development",
+    "tags": [
+      "pr",
+      "pull request",
+      "git",
+      "review"
+    ]
+  },
+  {
+    "name": "github",
+    "category": "brands",
+    "tags": [
+      "git",
+      "code",
+      "social",
+      "repository"
+    ]
+  },
+  {
+    "name": "globe",
+    "category": "communication",
+    "tags": [
+      "world",
+      "web",
+      "idioma",
+      "language",
+      "internet"
+    ]
+  },
+  {
+    "name": "graduation-cap",
+    "category": "lifestyle",
+    "tags": [
+      "education",
+      "educação",
+      "curso",
+      "school",
+      "formatura"
+    ]
+  },
+  {
+    "name": "grip-vertical",
+    "category": "interface",
+    "tags": [
+      "drag",
+      "handle",
+      "arrastar"
+    ]
+  },
+  {
+    "name": "hash",
+    "category": "data",
+    "tags": [
+      "number",
+      "tag",
+      "channel",
+      "número"
+    ]
+  },
+  {
+    "name": "heading",
+    "category": "editor",
+    "tags": [
+      "título",
+      "h1",
+      "header"
+    ]
+  },
+  {
+    "name": "headphones",
+    "category": "media",
+    "tags": [
+      "fone",
+      "audio",
+      "support",
+      "suporte"
+    ]
+  },
+  {
+    "name": "heart",
+    "category": "status",
+    "tags": [
+      "like",
+      "love",
+      "curtir",
+      "favorite"
+    ]
+  },
+  {
+    "name": "heart-pulse",
+    "category": "lifestyle",
+    "tags": [
+      "health",
+      "saúde",
+      "cardio",
+      "vital"
+    ]
+  },
+  {
+    "name": "help-circle",
+    "category": "status",
+    "tags": [
+      "question",
+      "ajuda",
+      "dúvida"
+    ]
+  },
+  {
+    "name": "hexagon",
+    "category": "shapes",
+    "tags": [
+      "hexágono",
+      "shape",
+      "polygon"
+    ]
+  },
+  {
+    "name": "history",
+    "category": "time",
+    "tags": [
+      "histórico",
+      "recent",
+      "recentes",
+      "clock back"
+    ]
+  },
+  {
+    "name": "home",
+    "category": "interface",
+    "tags": [
+      "house",
+      "início",
+      "casa"
+    ]
+  },
+  {
+    "name": "hourglass",
+    "category": "time",
+    "tags": [
+      "ampulheta",
+      "wait",
+      "loading",
+      "espera"
+    ]
+  },
+  {
+    "name": "image",
+    "category": "files",
+    "tags": [
+      "photo",
+      "picture",
+      "imagem",
+      "foto"
+    ]
+  },
+  {
+    "name": "inbox",
+    "category": "communication",
+    "tags": [
+      "caixa de entrada",
+      "messages"
+    ]
+  },
+  {
+    "name": "infinity",
+    "category": "interface",
+    "tags": [
+      "loop",
+      "unlimited",
+      "infinito",
+      "ilimitado"
+    ]
+  },
+  {
+    "name": "info",
+    "category": "status",
+    "tags": [
+      "information",
+      "informação",
+      "help"
+    ]
+  },
+  {
+    "name": "instagram",
+    "category": "brands",
+    "tags": [
+      "insta",
+      "social",
+      "rede social",
+      "photo"
+    ]
+  },
+  {
+    "name": "italic",
+    "category": "editor",
+    "tags": [
+      "itálico",
+      "emphasis"
+    ]
+  },
+  {
+    "name": "kanban",
+    "category": "interface",
+    "tags": [
+      "board",
+      "quadro",
+      "tasks"
+    ]
+  },
+  {
+    "name": "key",
+    "category": "actions",
+    "tags": [
+      "password",
+      "chave",
+      "access"
+    ]
+  },
+  {
+    "name": "keyboard",
+    "category": "devices",
+    "tags": [
+      "teclado",
+      "typing",
+      "input"
+    ]
+  },
+  {
+    "name": "laptop",
+    "category": "devices",
+    "tags": [
+      "notebook",
+      "computer",
+      "computador"
+    ]
+  },
+  {
+    "name": "layers",
+    "category": "interface",
+    "tags": [
+      "stack",
+      "camadas"
+    ]
+  },
+  {
+    "name": "layout-grid",
+    "category": "interface",
+    "tags": [
+      "grid",
+      "apps",
+      "dashboard"
+    ]
+  },
+  {
+    "name": "leaf",
+    "category": "lifestyle",
+    "tags": [
+      "folha",
+      "eco",
+      "nature",
+      "sustentável",
+      "green"
+    ]
+  },
+  {
+    "name": "lightbulb",
+    "category": "interface",
+    "tags": [
+      "idea",
+      "ideia",
+      "tip",
+      "dica",
+      "lâmpada"
+    ]
+  },
+  {
+    "name": "line-chart",
+    "category": "data",
+    "tags": [
+      "gráfico",
+      "analytics",
+      "trend"
+    ]
+  },
+  {
+    "name": "link",
+    "category": "actions",
+    "tags": [
+      "url",
+      "chain",
+      "href"
+    ]
+  },
+  {
+    "name": "linkedin",
+    "category": "brands",
+    "tags": [
+      "social",
+      "rede social",
+      "jobs",
+      "vagas",
+      "professional"
+    ]
+  },
+  {
+    "name": "list",
+    "category": "interface",
+    "tags": [
+      "lista",
+      "items",
+      "bullets"
+    ]
+  },
+  {
+    "name": "list-ordered",
+    "category": "editor",
+    "tags": [
+      "numbered",
+      "lista numerada"
+    ]
+  },
+  {
+    "name": "loader",
+    "category": "status",
+    "tags": [
+      "loading",
+      "carregando",
+      "spinner",
+      "wait"
+    ]
+  },
+  {
+    "name": "locate",
+    "category": "travel",
+    "tags": [
+      "crosshair",
+      "gps",
+      "my location",
+      "localizar"
+    ]
+  },
+  {
+    "name": "lock",
+    "category": "actions",
+    "tags": [
+      "secure",
+      "password",
+      "senha",
+      "cadeado"
+    ]
+  },
+  {
+    "name": "log-in",
+    "category": "actions",
+    "tags": [
+      "sign in",
+      "entrar",
+      "login"
+    ]
+  },
+  {
+    "name": "log-out",
+    "category": "actions",
+    "tags": [
+      "sign out",
+      "sair",
+      "logout"
+    ]
+  },
+  {
+    "name": "mail",
+    "category": "communication",
+    "tags": [
+      "email",
+      "e-mail",
+      "envelope",
+      "mensagem"
+    ]
+  },
+  {
+    "name": "mail-open",
+    "category": "communication",
+    "tags": [
+      "read",
+      "lido",
+      "email"
+    ]
+  },
+  {
+    "name": "map",
+    "category": "travel",
+    "tags": [
+      "mapa",
+      "location",
+      "atlas"
+    ]
+  },
+  {
+    "name": "map-pin",
+    "category": "devices",
+    "tags": [
+      "location",
+      "local",
+      "endereço",
+      "map"
+    ]
+  },
+  {
+    "name": "maximize",
+    "category": "interface",
+    "tags": [
+      "fullscreen",
+      "expand"
+    ]
+  },
+  {
+    "name": "megaphone",
+    "category": "communication",
+    "tags": [
+      "announce",
+      "marketing",
+      "anúncio",
+      "promo"
+    ]
+  },
+  {
+    "name": "menu",
+    "category": "interface",
+    "tags": [
+      "hamburger",
+      "nav"
+    ]
+  },
+  {
+    "name": "message",
+    "category": "communication",
+    "tags": [
+      "chat",
+      "comment",
+      "comentário",
+      "conversa"
+    ]
+  },
+  {
+    "name": "message-text",
+    "category": "communication",
+    "tags": [
+      "chat",
+      "comment",
+      "texto",
+      "comentário"
+    ]
+  },
+  {
+    "name": "mic",
+    "category": "media",
+    "tags": [
+      "microphone",
+      "microfone",
+      "audio",
+      "voice"
+    ]
+  },
+  {
+    "name": "mic-off",
+    "category": "media",
+    "tags": [
+      "mute",
+      "mudo",
+      "microphone off"
+    ]
+  },
+  {
+    "name": "minimize",
+    "category": "interface",
+    "tags": [
+      "exit fullscreen",
+      "shrink"
+    ]
+  },
+  {
+    "name": "minus",
+    "category": "actions",
+    "tags": [
+      "remove",
+      "subtract"
+    ]
+  },
+  {
+    "name": "monitor",
+    "category": "devices",
+    "tags": [
+      "desktop",
+      "screen",
+      "tela",
+      "computador"
+    ]
+  },
+  {
+    "name": "moon",
+    "category": "interface",
+    "tags": [
+      "dark",
+      "escuro",
+      "noite",
+      "theme"
+    ]
+  },
+  {
+    "name": "more-horizontal",
+    "category": "interface",
+    "tags": [
+      "dots",
+      "options",
+      "mais"
+    ]
+  },
+  {
+    "name": "more-vertical",
+    "category": "interface",
+    "tags": [
+      "dots",
+      "kebab",
+      "options"
+    ]
+  },
+  {
+    "name": "mountain",
+    "category": "travel",
+    "tags": [
+      "montanha",
+      "landscape",
+      "outdoor"
+    ]
+  },
+  {
+    "name": "mouse",
+    "category": "devices",
+    "tags": [
+      "pointer",
+      "click",
+      "scroll"
+    ]
+  },
+  {
+    "name": "move",
+    "category": "arrows",
+    "tags": [
+      "drag",
+      "mover",
+      "pan"
+    ]
+  },
+  {
+    "name": "music",
+    "category": "media",
+    "tags": [
+      "song",
+      "música",
+      "audio",
+      "nota"
+    ]
+  },
+  {
+    "name": "navigation",
+    "category": "travel",
+    "tags": [
+      "gps",
+      "direction",
+      "navegação",
+      "location"
+    ]
+  },
+  {
+    "name": "octagon",
+    "category": "shapes",
+    "tags": [
+      "octógono",
+      "shape",
+      "stop"
+    ]
+  },
+  {
+    "name": "octagon-alert",
+    "category": "status",
+    "tags": [
+      "stop",
+      "error",
+      "pare",
+      "critical"
+    ]
+  },
+  {
+    "name": "package",
+    "category": "commerce",
+    "tags": [
+      "box",
+      "caixa",
+      "pacote",
+      "produto"
+    ]
+  },
+  {
+    "name": "palette",
+    "category": "interface",
+    "tags": [
+      "color",
+      "theme",
+      "cor",
+      "design"
+    ]
+  },
+  {
+    "name": "paperclip",
+    "category": "actions",
+    "tags": [
+      "attach",
+      "anexo",
+      "clip"
+    ]
+  },
+  {
+    "name": "pause",
+    "category": "media",
+    "tags": [
+      "pausar",
+      "stop"
+    ]
+  },
+  {
+    "name": "pencil",
+    "category": "actions",
+    "tags": [
+      "edit",
+      "editar",
+      "write"
+    ]
+  },
+  {
+    "name": "percent",
+    "category": "commerce",
+    "tags": [
+      "discount",
+      "desconto",
+      "sale",
+      "promo"
+    ]
+  },
+  {
+    "name": "phone",
+    "category": "communication",
+    "tags": [
+      "call",
+      "telefone",
+      "ligar"
+    ]
+  },
+  {
+    "name": "phone-call",
+    "category": "communication",
+    "tags": [
+      "calling",
+      "ligação",
+      "ringing"
+    ]
+  },
+  {
+    "name": "pie-chart",
+    "category": "data",
+    "tags": [
+      "gráfico pizza",
+      "analytics",
+      "share"
+    ]
+  },
+  {
+    "name": "pill",
+    "category": "lifestyle",
+    "tags": [
+      "medicine",
+      "remédio",
+      "pharmacy",
+      "farmácia"
+    ]
+  },
+  {
+    "name": "pin",
+    "category": "interface",
+    "tags": [
+      "pushpin",
+      "fixar",
+      "alfinete"
+    ]
+  },
+  {
+    "name": "pinterest",
+    "category": "brands",
+    "tags": [
+      "social",
+      "inspiration",
+      "pins"
+    ]
+  },
+  {
+    "name": "plane",
+    "category": "travel",
+    "tags": [
+      "flight",
+      "avião",
+      "voo",
+      "travel",
+      "viagem"
+    ]
+  },
+  {
+    "name": "play",
+    "category": "media",
+    "tags": [
+      "start",
+      "iniciar",
+      "tocar"
+    ]
+  },
+  {
+    "name": "plus",
+    "category": "actions",
+    "tags": [
+      "add",
+      "new",
+      "novo",
+      "adicionar"
+    ]
+  },
+  {
+    "name": "power",
+    "category": "interface",
+    "tags": [
+      "on off",
+      "ligar",
+      "desligar",
+      "shutdown"
+    ]
+  },
+  {
+    "name": "printer",
+    "category": "actions",
+    "tags": [
+      "print",
+      "imprimir",
+      "impressora"
+    ]
+  },
+  {
+    "name": "qr-code",
+    "category": "interface",
+    "tags": [
+      "qr",
+      "código",
+      "scan",
+      "pix"
+    ]
+  },
+  {
+    "name": "quote",
+    "category": "editor",
+    "tags": [
+      "citação",
+      "blockquote",
+      "aspas"
+    ]
+  },
+  {
+    "name": "receipt",
+    "category": "commerce",
+    "tags": [
+      "invoice",
+      "recibo",
+      "nota",
+      "bill"
+    ]
+  },
+  {
+    "name": "redo",
+    "category": "arrows",
+    "tags": [
+      "refazer",
+      "forward"
+    ]
+  },
+  {
+    "name": "refresh",
+    "category": "arrows",
+    "tags": [
+      "reload",
+      "sync",
+      "atualizar"
+    ]
+  },
+  {
+    "name": "repeat",
+    "category": "media",
+    "tags": [
+      "loop",
+      "repetir"
+    ]
+  },
+  {
+    "name": "rotate-ccw",
+    "category": "arrows",
+    "tags": [
+      "rotate",
+      "undo",
+      "girar"
+    ]
+  },
+  {
+    "name": "rotate-cw",
+    "category": "arrows",
+    "tags": [
+      "rotate",
+      "redo",
+      "girar"
+    ]
+  },
+  {
+    "name": "route",
+    "category": "travel",
+    "tags": [
+      "path",
+      "rota",
+      "trajeto",
+      "directions"
+    ]
+  },
+  {
+    "name": "rows",
+    "category": "interface",
+    "tags": [
+      "layout",
+      "linhas"
+    ]
+  },
+  {
+    "name": "rss",
+    "category": "communication",
+    "tags": [
+      "feed",
+      "blog",
+      "podcast"
+    ]
+  },
+  {
+    "name": "ruler",
+    "category": "lifestyle",
+    "tags": [
+      "régua",
+      "measure",
+      "medida",
+      "size"
+    ]
+  },
+  {
+    "name": "salve",
+    "category": "interface",
+    "tags": [
+      "logo",
+      "balm",
+      "pomada",
+      "brand"
+    ]
+  },
+  {
+    "name": "save",
+    "category": "actions",
+    "tags": [
+      "salvar",
+      "floppy",
+      "disk"
+    ]
+  },
+  {
+    "name": "scan",
+    "category": "interface",
+    "tags": [
+      "focus",
+      "frame",
+      "escanear"
+    ]
+  },
+  {
+    "name": "scissors",
+    "category": "actions",
+    "tags": [
+      "cut",
+      "cortar",
+      "tesoura"
+    ]
+  },
+  {
+    "name": "search",
+    "category": "actions",
+    "tags": [
+      "find",
+      "buscar",
+      "lupa",
+      "procurar"
+    ]
+  },
+  {
+    "name": "send",
+    "category": "actions",
+    "tags": [
+      "enviar",
+      "paper plane",
+      "submit"
+    ]
+  },
+  {
+    "name": "server",
+    "category": "development",
+    "tags": [
+      "servidor",
+      "hosting",
+      "backend",
+      "rack"
+    ]
+  },
+  {
+    "name": "settings",
+    "category": "interface",
+    "tags": [
+      "gear",
+      "cog",
+      "configurações",
+      "preferences",
+      "engrenagem"
+    ]
+  },
+  {
+    "name": "share",
+    "category": "actions",
+    "tags": [
+      "compartilhar",
+      "network"
+    ]
+  },
+  {
+    "name": "shield",
+    "category": "actions",
+    "tags": [
+      "security",
+      "protection",
+      "proteção",
+      "segurança"
+    ]
+  },
+  {
+    "name": "shield-alert",
+    "category": "actions",
+    "tags": [
+      "warning",
+      "security",
+      "risco"
+    ]
+  },
+  {
+    "name": "shield-check",
+    "category": "status",
+    "tags": [
+      "security",
+      "segurança",
+      "verified"
+    ]
+  },
+  {
+    "name": "shopping-bag",
+    "category": "commerce",
+    "tags": [
+      "sacola",
+      "bag",
+      "shop",
+      "compras"
+    ]
+  },
+  {
+    "name": "shuffle",
+    "category": "media",
+    "tags": [
+      "random",
+      "aleatório"
+    ]
+  },
+  {
+    "name": "sidebar",
+    "category": "interface",
+    "tags": [
+      "panel",
+      "layout"
+    ]
+  },
+  {
+    "name": "signal",
+    "category": "status",
+    "tags": [
+      "network",
+      "sinal",
+      "cell",
+      "bars"
+    ]
+  },
+  {
+    "name": "skip-back",
+    "category": "media",
+    "tags": [
+      "previous",
+      "anterior"
+    ]
+  },
+  {
+    "name": "skip-forward",
+    "category": "media",
+    "tags": [
+      "next",
+      "próximo"
+    ]
+  },
+  {
+    "name": "sliders",
+    "category": "interface",
+    "tags": [
+      "settings",
+      "config",
+      "ajustes",
+      "filters"
+    ]
+  },
+  {
+    "name": "smartphone",
+    "category": "devices",
+    "tags": [
+      "mobile",
+      "celular",
+      "phone"
+    ]
+  },
+  {
+    "name": "smile",
+    "category": "status",
+    "tags": [
+      "happy",
+      "emoji",
+      "feedback"
+    ]
+  },
+  {
+    "name": "snowflake",
+    "category": "weather",
+    "tags": [
+      "snow",
+      "neve",
+      "cold",
+      "frio",
+      "inverno"
+    ]
+  },
+  {
+    "name": "sparkle",
+    "category": "status",
+    "tags": [
+      "ai",
+      "magic",
+      "new",
+      "novo",
+      "brilho"
+    ]
+  },
+  {
+    "name": "spotify",
+    "category": "brands",
+    "tags": [
+      "music",
+      "música",
+      "podcast",
+      "streaming"
+    ]
+  },
+  {
+    "name": "sprout",
+    "category": "lifestyle",
+    "tags": [
+      "plant",
+      "planta",
+      "growth",
+      "broto"
+    ]
+  },
+  {
+    "name": "square",
+    "category": "interface",
+    "tags": [
+      "shape",
+      "checkbox"
+    ]
+  },
+  {
+    "name": "star",
+    "category": "status",
+    "tags": [
+      "favorite",
+      "favorito",
+      "rating"
+    ]
+  },
+  {
+    "name": "stop",
+    "category": "media",
+    "tags": [
+      "parar",
+      "square"
+    ]
+  },
+  {
+    "name": "store",
+    "category": "travel",
+    "tags": [
+      "shop",
+      "loja",
+      "market",
+      "comércio"
+    ]
+  },
+  {
+    "name": "strikethrough",
+    "category": "editor",
+    "tags": [
+      "tachado",
+      "riscado"
+    ]
+  },
+  {
+    "name": "sun",
+    "category": "interface",
+    "tags": [
+      "light",
+      "claro",
+      "dia",
+      "theme"
+    ]
+  },
+  {
+    "name": "table",
+    "category": "interface",
+    "tags": [
+      "grid",
+      "spreadsheet",
+      "tabela",
+      "planilha"
+    ]
+  },
+  {
+    "name": "tablet",
+    "category": "devices",
+    "tags": [
+      "ipad",
+      "device"
+    ]
+  },
+  {
+    "name": "tag",
+    "category": "commerce",
+    "tags": [
+      "price",
+      "preço",
+      "label",
+      "etiqueta"
+    ]
+  },
+  {
+    "name": "target",
+    "category": "status",
+    "tags": [
+      "goal",
+      "meta",
+      "objetivo",
+      "alvo"
+    ]
+  },
+  {
+    "name": "telegram",
+    "category": "brands",
+    "tags": [
+      "chat",
+      "social",
+      "mensagem"
+    ]
+  },
+  {
+    "name": "terminal",
+    "category": "files",
+    "tags": [
+      "console",
+      "cli",
+      "shell",
+      "command"
+    ]
+  },
+  {
+    "name": "thermometer",
+    "category": "weather",
+    "tags": [
+      "temperature",
+      "temperatura",
+      "termômetro"
+    ]
+  },
+  {
+    "name": "thumbs-down",
+    "category": "status",
+    "tags": [
+      "dislike",
+      "não gostei",
+      "reject"
+    ]
+  },
+  {
+    "name": "thumbs-up",
+    "category": "status",
+    "tags": [
+      "like",
+      "curtir",
+      "approve",
+      "gostei"
+    ]
+  },
+  {
+    "name": "ticket",
+    "category": "commerce",
+    "tags": [
+      "ingresso",
+      "coupon",
+      "cupom",
+      "event"
+    ]
+  },
+  {
+    "name": "tiktok",
+    "category": "brands",
+    "tags": [
+      "social",
+      "rede social",
+      "video",
+      "short"
+    ]
+  },
+  {
+    "name": "timer",
+    "category": "time",
+    "tags": [
+      "stopwatch",
+      "cronômetro",
+      "countdown"
+    ]
+  },
+  {
+    "name": "toggle",
+    "category": "interface",
+    "tags": [
+      "switch",
+      "on",
+      "ligado"
+    ]
+  },
+  {
+    "name": "train",
+    "category": "travel",
+    "tags": [
+      "metro",
+      "trem",
+      "subway",
+      "transport"
+    ]
+  },
+  {
+    "name": "trash",
+    "category": "actions",
+    "tags": [
+      "delete",
+      "excluir",
+      "lixo",
+      "remove"
+    ]
+  },
+  {
+    "name": "trending-down",
+    "category": "data",
+    "tags": [
+      "decrease",
+      "queda",
+      "decline"
+    ]
+  },
+  {
+    "name": "trending-up",
+    "category": "data",
+    "tags": [
+      "growth",
+      "crescimento",
+      "increase"
+    ]
+  },
+  {
+    "name": "triangle",
+    "category": "shapes",
+    "tags": [
+      "triângulo",
+      "shape"
+    ]
+  },
+  {
+    "name": "trophy",
+    "category": "status",
+    "tags": [
+      "winner",
+      "troféu",
+      "campeão",
+      "prize"
+    ]
+  },
+  {
+    "name": "truck",
+    "category": "commerce",
+    "tags": [
+      "shipping",
+      "entrega",
+      "frete",
+      "delivery"
+    ]
+  },
+  {
+    "name": "tv",
+    "category": "devices",
+    "tags": [
+      "television",
+      "televisão",
+      "screen",
+      "streaming"
+    ]
+  },
+  {
+    "name": "twitch",
+    "category": "brands",
+    "tags": [
+      "streaming",
+      "live",
+      "gaming",
+      "social"
+    ]
+  },
+  {
+    "name": "type",
+    "category": "interface",
+    "tags": [
+      "text",
+      "font",
+      "texto",
+      "fonte"
+    ]
+  },
+  {
+    "name": "umbrella",
+    "category": "weather",
+    "tags": [
+      "guarda-chuva",
+      "rain",
+      "insurance",
+      "seguro"
+    ]
+  },
+  {
+    "name": "underline",
+    "category": "editor",
+    "tags": [
+      "sublinhado"
+    ]
+  },
+  {
+    "name": "undo",
+    "category": "arrows",
+    "tags": [
+      "desfazer",
+      "back"
+    ]
+  },
+  {
+    "name": "unlock",
+    "category": "actions",
+    "tags": [
+      "open",
+      "desbloquear"
+    ]
+  },
+  {
+    "name": "upload",
+    "category": "actions",
+    "tags": [
+      "enviar",
+      "import"
+    ]
+  },
+  {
+    "name": "user",
+    "category": "communication",
+    "tags": [
+      "person",
+      "profile",
+      "perfil",
+      "usuário",
+      "account"
+    ]
+  },
+  {
+    "name": "user-check",
+    "category": "communication",
+    "tags": [
+      "approved",
+      "verified user",
+      "aprovado"
+    ]
+  },
+  {
+    "name": "user-minus",
+    "category": "communication",
+    "tags": [
+      "remove user",
+      "remover"
+    ]
+  },
+  {
+    "name": "user-plus",
+    "category": "communication",
+    "tags": [
+      "invite",
+      "convidar",
+      "add user"
+    ]
+  },
+  {
+    "name": "user-x",
+    "category": "communication",
+    "tags": [
+      "remove",
+      "block user",
+      "bloquear"
+    ]
+  },
+  {
+    "name": "users",
+    "category": "communication",
+    "tags": [
+      "team",
+      "time",
+      "group",
+      "pessoas"
+    ]
+  },
+  {
+    "name": "utensils",
+    "category": "lifestyle",
+    "tags": [
+      "restaurante",
+      "food",
+      "comida",
+      "talheres"
+    ]
+  },
+  {
+    "name": "video",
+    "category": "media",
+    "tags": [
+      "camera",
+      "film",
+      "vídeo",
+      "meeting"
+    ]
+  },
+  {
+    "name": "video-off",
+    "category": "media",
+    "tags": [
+      "camera off",
+      "câmera desligada"
+    ]
+  },
+  {
+    "name": "volume",
+    "category": "media",
+    "tags": [
+      "sound",
+      "som",
+      "audio",
+      "speaker"
+    ]
+  },
+  {
+    "name": "volume-x",
+    "category": "media",
+    "tags": [
+      "mute",
+      "mudo",
+      "silent"
+    ]
+  },
+  {
+    "name": "wallet",
+    "category": "commerce",
+    "tags": [
+      "carteira",
+      "money",
+      "dinheiro",
+      "payment"
+    ]
+  },
+  {
+    "name": "watch",
+    "category": "devices",
+    "tags": [
+      "smartwatch",
+      "relógio",
+      "wearable"
+    ]
+  },
+  {
+    "name": "whatsapp",
+    "category": "brands",
+    "tags": [
+      "zap",
+      "whats",
+      "chat",
+      "social",
+      "mensagem"
+    ]
+  },
+  {
+    "name": "wifi",
+    "category": "communication",
+    "tags": [
+      "internet",
+      "connection",
+      "rede"
+    ]
+  },
+  {
+    "name": "wind",
+    "category": "weather",
+    "tags": [
+      "vento",
+      "air",
+      "breeze"
+    ]
+  },
+  {
+    "name": "wrench",
+    "category": "actions",
+    "tags": [
+      "tool",
+      "ferramenta",
+      "fix",
+      "settings"
+    ]
+  },
+  {
+    "name": "x",
+    "category": "actions",
+    "tags": [
+      "close",
+      "fechar",
+      "cancel",
+      "remove"
+    ]
+  },
+  {
+    "name": "x-circle",
+    "category": "status",
+    "tags": [
+      "error",
+      "fail",
+      "falha"
+    ]
+  },
+  {
+    "name": "x-twitter",
+    "category": "brands",
+    "tags": [
+      "x",
+      "twitter",
+      "social",
+      "rede social"
+    ]
+  },
+  {
+    "name": "youtube",
+    "category": "brands",
+    "tags": [
+      "video",
+      "social",
+      "rede social",
+      "streaming"
+    ]
+  },
+  {
+    "name": "zap",
+    "category": "status",
+    "tags": [
+      "lightning",
+      "fast",
+      "raio",
+      "energia"
+    ]
+  },
+  {
+    "name": "zoom-in",
+    "category": "actions",
+    "tags": [
+      "magnify",
+      "ampliar"
+    ]
+  },
+  {
+    "name": "zoom-out",
+    "category": "actions",
+    "tags": [
+      "reduzir"
+    ]
+  }
+]

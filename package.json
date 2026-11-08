@@ -1,0 +1,73 @@
+{
+  "name": "salve-icons",
+  "version": "0.1.0",
+  "description": "Ícones para o salve: 292 ícones de traço em grade de 24px, incluindo redes sociais. Use como classe CSS, sprite SVG, componente React (com Server Components), módulo JS ou web component. Herdam cor e tamanho do texto.",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "style": "dist/salve-icons.css",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./react": {
+      "types": "./dist/react.d.ts",
+      "default": "./dist/react.js"
+    },
+    "./css": "./dist/salve-icons.css",
+    "./element": "./dist/element.js",
+    "./sprite.svg": "./dist/sprite.svg",
+    "./icons.json": "./dist/icons.json",
+    "./svg/*": "./dist/svg/*",
+    "./build": "./lib/build.js"
+  },
+  "bin": {
+    "salve-icons": "bin/salve-icons.js"
+  },
+  "files": [
+    "dist",
+    "src",
+    "lib",
+    "bin"
+  ],
+  "sideEffects": [
+    "*.css",
+    "./dist/element.js"
+  ],
+  "scripts": {
+    "build": "node -e \"import('./lib/build.js').then(m => m.buildIcons()).then(r => console.log('salve-icons → dist (' + r.count + ' icons)'))\"",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "css",
+    "icon-font",
+    "icons",
+    "nextjs",
+    "react",
+    "salve",
+    "server-components",
+    "social-icons",
+    "sprite",
+    "ssr",
+    "svg",
+    "web-component"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/<seu-usuario>/salve-icons.git"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=17"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    }
+  }
+}
