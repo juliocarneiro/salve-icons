@@ -1,7 +1,7 @@
 {
   "name": "salve-icons",
-  "version": "0.1.0",
-  "description": "Ícones para o salve: 292 ícones de traço em grade de 24px, incluindo redes sociais. Use como classe CSS, sprite SVG, componente React (com Server Components), módulo JS ou web component. Herdam cor e tamanho do texto.",
+  "version": "0.1.1",
+  "description": "Icons that behave like text: 292 stroke icons on a 24px grid, social brands included. Use them as CSS classes, React components (Server Components friendly), SVG sprite, JS module or web component. They inherit color and size from the text.",
   "type": "module",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -30,7 +30,9 @@
     "dist",
     "src",
     "lib",
-    "bin"
+    "bin",
+    "CHANGELOG.md",
+    "README.pt-BR.md"
   ],
   "sideEffects": [
     "*.css",

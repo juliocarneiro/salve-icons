@@ -2,60 +2,62 @@
 
 # salve-icons
 
-**Ícones que se comportam como texto.**
+**English** · [Português](README.pt-BR.md)
 
-292 ícones de traço numa grade de 24px, incluindo **redes sociais**, feitos para acompanhar o [salve-css](https://github.com/juliocarneiro/salve-css). Eles herdam a cor e o tamanho do texto ao redor, alinham-se à linha de base e funcionam com ou sem JavaScript. Têm componentes React prontos para **Server Components e SSR**.
+**Icons that behave like text.**
 
-`npm i salve-icons` · zero dependências · React opcional · MIT
+292 stroke icons on a 24px grid, **social brands included**, made to go with [salve-css](https://github.com/juliocarneiro/salve-css). They inherit color and size from the text around them, sit on the baseline and work with or without JavaScript. React components are ready for **Server Components and SSR**.
+
+`npm i salve-icons` · zero dependencies · React optional · MIT
 
 </div>
 
 ---
 
-## Índice
+## Contents
 
-- [Por que mais uma biblioteca de ícones](#por-que-mais-uma-biblioteca-de-ícones)
-- [Instalação](#instalação)
-- [Cinco formas de usar](#cinco-formas-de-usar)
-  - [1. Classe CSS](#1-classe-css-mais-simples)
-  - [2. Componentes React](#2-componentes-react)
-  - [3. Sprite SVG](#3-sprite-svg)
-  - [4. Módulo JavaScript](#4-módulo-javascript)
+- [Why another icon library](#why-another-icon-library)
+- [Installation](#installation)
+- [Five ways to use them](#five-ways-to-use-them)
+  - [1. CSS class](#1-css-class-simplest)
+  - [2. React components](#2-react-components)
+  - [3. SVG sprite](#3-svg-sprite)
+  - [4. JavaScript module](#4-javascript-module)
   - [5. Web component](#5-web-component)
-  - [Qual escolher?](#qual-escolher)
-- [SSR e Next.js](#ssr-e-nextjs)
-- [Tamanho, cor e traço](#tamanho-cor-e-traço)
-- [Com o salve-css](#com-o-salve-css)
-- [Usando com frameworks](#usando-com-frameworks)
-- [Acessibilidade](#acessibilidade)
-- [Lista de ícones](#lista-de-ícones)
-- [CLI: pacote só com os ícones que você usa](#cli-pacote-só-com-os-ícones-que-você-usa)
-- [Diretrizes de desenho](#diretrizes-de-desenho)
-- [Contribuindo com um ícone](#contribuindo-com-um-ícone)
-- [Perguntas frequentes](#perguntas-frequentes)
+  - [Which one should I pick?](#which-one-should-i-pick)
+- [SSR and Next.js](#ssr-and-nextjs)
+- [Size, color and stroke](#size-color-and-stroke)
+- [With salve-css](#with-salve-css)
+- [Frameworks](#frameworks)
+- [Accessibility](#accessibility)
+- [Icon list](#icon-list)
+- [CLI: a bundle with only the icons you use](#cli-a-bundle-with-only-the-icons-you-use)
+- [Design guidelines](#design-guidelines)
+- [Contributing an icon](#contributing-an-icon)
+- [FAQ](#faq)
 
 ---
 
-## Por que mais uma biblioteca de ícones
+## Why another icon library
 
-Usar ícones costuma dar mais trabalho do que deveria: ajustar alinhamento com o texto, trocar cor no hover, redimensionar dentro de botões, escolher entre fonte de ícones, SVG inline ou sprite. O salve-icons resolve isso assim:
+Icons tend to be more work than they should: aligning them with text, changing color on hover, resizing them inside buttons, choosing between an icon font, inline SVG or a sprite. salve-icons handles it like this:
 
-| Dor | Como o salve-icons resolve |
+| Pain | How salve-icons fixes it |
 |---|---|
-| Ícone desalinhado do texto | `vertical-align: -0.125em` calibrado para a linha de base |
-| Mudar a cor exige outro arquivo | tudo usa `currentColor`: o ícone tem a cor do texto, inclusive no hover |
-| Tamanho fixo em px | `1em` por padrão: segue o `font-size` de onde está |
-| Fonte de ícones borrada e inacessível | SVG de verdade, nítido em qualquer tela |
-| Ter que escolher um formato só | o mesmo ícone sai como classe CSS, componente React, sprite, módulo JS e web component |
-| Ícone que quebra o SSR ou a hydration | componentes React sem hooks (funcionam em Server Components) e um `<s-icon>` com shadow DOM |
-| Biblioteca incompleta, falta sempre "aquele" ícone | 292 ícones em 18 categorias, de setas a clima, finanças, dev e redes sociais |
-| Pacote pesado | exports nomeados com tree-shaking, e o CLI gera um CSS só com os ícones que você usa |
-| Ícone some no alto contraste do Windows | regra de `forced-colors` incluída |
-| Animação de carregamento para quem não quer movimento | `.si-spin` para com `prefers-reduced-motion` |
+| Icon misaligned with the text | `vertical-align: -0.125em`, tuned to the baseline |
+| Changing color needs another file | everything uses `currentColor`: the icon takes the text color, hover included |
+| Fixed pixel sizes | `1em` by default: follows the `font-size` of where it sits |
+| Blurry, inaccessible icon fonts | real SVG, crisp on any screen |
+| Having to pick a single format | the same icon ships as a CSS class, React component, sprite, JS module and web component |
+| Icons that break SSR or hydration | React components without hooks (they work in Server Components) and an `<s-icon>` with shadow DOM |
+| An incomplete library, always missing "that one" icon | 292 icons in 18 categories, from arrows to weather, finance, dev and social brands |
+| A heavy package | tree-shakable named exports, and a CLI that builds a CSS file with only your icons |
+| Icons disappearing in Windows High Contrast | `forced-colors` rule included |
+| Loading animations for people who want less motion | `.si-spin` stops with `prefers-reduced-motion` |
 
 ---
 
-## Instalação
+## Installation
 
 **CDN**
 
@@ -70,111 +72,111 @@ npm i salve-icons
 ```
 
 ```js
-import "salve-icons/css";                          // classes .si-*
-import { CheckIcon, Icon } from "salve-icons/react"; // componentes React
-import { svg, checkIcon } from "salve-icons";       // strings SVG
+import "salve-icons/css";                          // .si-* classes
+import { CheckIcon, Icon } from "salve-icons/react"; // React components
+import { svg, checkIcon } from "salve-icons";       // SVG strings
 import "salve-icons/element";                      // <s-icon>
 ```
 
-| Caminho | Conteúdo |
+| Path | Contents |
 |---|---|
-| `salve-icons/css` | `dist/salve-icons.css`: classes `.si` e `.si-<nome>` |
-| `salve-icons/sprite.svg` | `dist/sprite.svg`: todos os ícones como `<symbol>` |
-| `salve-icons/react` | `dist/react.js` (+ tipos): `<Icon name>` e um componente por ícone (`<CheckIcon />`) |
-| `salve-icons` | `dist/index.js` (+ tipos): strings SVG e a função `svg()` |
-| `salve-icons/element` | `dist/element.js`: web component `<s-icon>` |
-| `salve-icons/svg/<nome>.svg` | arquivos SVG individuais |
-| `salve-icons/icons.json` | metadados: nome, categoria, tags |
+| `salve-icons/css` | `dist/salve-icons.css`: `.si` and `.si-<name>` classes |
+| `salve-icons/react` | `dist/react.js` (+ types): `<Icon name>` and one component per icon (`<CheckIcon />`) |
+| `salve-icons/sprite.svg` | `dist/sprite.svg`: every icon as a `<symbol>` |
+| `salve-icons` | `dist/index.js` (+ types): SVG strings and the `svg()` helper |
+| `salve-icons/element` | `dist/element.js`: the `<s-icon>` web component |
+| `salve-icons/svg/<name>.svg` | individual SVG files |
+| `salve-icons/icons.json` | metadata: name, category, tags |
 
 ---
 
-## Cinco formas de usar
+## Five ways to use them
 
-### 1. Classe CSS (mais simples)
+### 1. CSS class (simplest)
 
 ```html
 <i class="si si-check" aria-hidden="true"></i>
 <span class="si si-search" aria-hidden="true"></span>
 ```
 
-Cada ícone é desenhado com `mask-image`, e o preenchimento é `currentColor`. Não precisa de JavaScript nem de arquivos extras: um único CSS (~12 KB gzip) traz todos os ícones.
+Each icon is drawn with `mask-image` and filled with `currentColor`. No JavaScript and no extra files: a single CSS file (~12 KB gzip) brings every icon.
 
 ```html
 <button class="btn">
   <i class="si si-plus" aria-hidden="true"></i>
-  Novo projeto
+  New project
 </button>
 
-<a href="/sair" class="text-danger">
-  <i class="si si-log-out" aria-hidden="true"></i> Sair
+<a href="/logout" class="text-danger">
+  <i class="si si-log-out" aria-hidden="true"></i> Log out
 </a>
 ```
 
-### 2. Componentes React
+### 2. React components
 
-O jeito mais natural em React e Next.js. Os componentes **não usam hooks nem `"use client"`**, então renderizam em Server Components, no SSR e no cliente.
+The most natural way in React and Next.js. Components **use no hooks and no `"use client"`**, so they render in Server Components, during SSR and on the client.
 
 ```jsx
 import { CheckIcon, TrashIcon, GithubIcon, Icon } from "salve-icons/react";
 
-<button className="btn"><CheckIcon /> Salvar</button>
-<button className="btn tone-danger"><TrashIcon strokeWidth={2.25} /> Excluir</button>
+<button className="btn"><CheckIcon /> Save</button>
+<button className="btn tone-danger"><TrashIcon strokeWidth={2.25} /> Delete</button>
 <a href="https://github.com/…"><GithubIcon size={20} label="GitHub" /></a>
 
-<Icon name="sparkle" className="text-accent" size="2rem" />   {/* pelo nome */}
+<Icon name="sparkle" className="text-accent" size="2rem" />   {/* by name */}
 ```
 
-| Prop | Padrão | Descrição |
+| Prop | Default | Description |
 |---|---|---|
-| `size` | `1em` | número (px) ou qualquer medida CSS |
-| `strokeWidth` | `1.75` | espessura do traço |
-| `label` | — | nome acessível; sem ele o ícone fica `aria-hidden` |
-| `className`, `style`, `onClick`… | — | qualquer prop de `<svg>` é repassada |
+| `size` | `1em` | number (px) or any CSS length |
+| `strokeWidth` | `1.75` | stroke width |
+| `label` | — | accessible name; without it the icon is `aria-hidden` |
+| `className`, `style`, `onClick`… | — | any `<svg>` prop is passed through |
 
-- **Tree-shaking:** importe componentes nomeados (`CheckIcon`) para levar só o que usa. O `<Icon name>` inclui todos os ícones no bundle; use-o quando o nome vem de dados.
-- O nome do componente é o nome do ícone em PascalCase + `Icon`: `arrow-right` → `ArrowRightIcon`, `x-twitter` → `XTwitterIcon`.
-- Os tipos TypeScript vêm incluídos, e `name` autocompleta no editor.
-- `react` é uma *peer dependency* opcional: quem não usa React não instala nada a mais.
+- **Tree-shaking:** import named components (`CheckIcon`) to ship only what you use. `<Icon name>` includes every icon in the bundle; use it when the name comes from data.
+- The component name is the icon name in PascalCase + `Icon`: `arrow-right` → `ArrowRightIcon`, `x-twitter` → `XTwitterIcon`.
+- TypeScript types are included, and `name` autocompletes in your editor.
+- `react` is an optional *peer dependency*: if you don't use React, nothing extra gets installed.
 
-### 3. Sprite SVG
+### 3. SVG sprite
 
-Melhor quando você quer **controlar a espessura do traço** via CSS, ou quando usa muitos ícones por página.
+Best when you want to **control the stroke width** from CSS, or when a page uses many icons.
 
 ```html
 <svg class="si-svg" aria-hidden="true"><use href="/sprite.svg#check"/></svg>
 ```
 
-Copie `node_modules/salve-icons/dist/sprite.svg` para a pasta pública do seu projeto. O CSS do salve-icons já traz a classe `.si-svg` (traço, cor e tamanho). Sem ele, aplique `fill: none; stroke: currentColor; stroke-width: 1.75; stroke-linecap: round; stroke-linejoin: round`.
+Copy `node_modules/salve-icons/dist/sprite.svg` into your public folder. The salve-icons CSS already includes the `.si-svg` class (stroke, color and size). Without it, apply `fill: none; stroke: currentColor; stroke-width: 1.75; stroke-linecap: round; stroke-linejoin: round`.
 
 ```html
 <svg class="si-svg" style="--si-stroke: 1.25"><use href="/sprite.svg#heart"/></svg>
 ```
 
-### 4. Módulo JavaScript
+### 4. JavaScript module
 
-Para frameworks, renderização no servidor ou quando você quer o SVG inline no HTML.
+For frameworks, server rendering, or when you want the SVG inline in the HTML.
 
 ```js
 import { svg, icons, names, checkIcon, arrowRightIcon } from "salve-icons";
 
 svg("check");                                   // "<svg … aria-hidden="true"><path …/></svg>"
-svg("trash", { label: "Excluir" });             // role="img" aria-label="Excluir"
+svg("trash", { label: "Delete" });              // role="img" aria-label="Delete"
 svg(arrowRightIcon, { size: 20, strokeWidth: 2 });
 
-icons["map-pin"];   // markup interno do ícone
-names;              // ["activity", "alert-circle", …]
+icons["map-pin"];   // the icon's inner markup
+names;              // ["activity", "alarm-clock", …]
 ```
 
-Os exports nomeados (`checkIcon`, `arrowRightIcon`…) são **tree-shakable**: o bundler inclui só o que você importou.
+Named exports (`checkIcon`, `arrowRightIcon`…) are **tree-shakable**: your bundler includes only what you import.
 
-| Opção de `svg()` | Padrão | Descrição |
+| `svg()` option | Default | Description |
 |---|---|---|
-| `size` | `24` | `width`/`height`; quando informado, também vira `--si-size` |
-| `strokeWidth` | `1.75` | espessura do traço; quando informado, também vira `--si-stroke` |
-| `label` | — | nome acessível; sem ele o ícone é decorativo (`aria-hidden`) |
-| `class` | `"si-svg"` | atributo `class` |
+| `size` | `24` | `width`/`height`; when given, also becomes `--si-size` |
+| `strokeWidth` | `1.75` | stroke width; when given, also becomes `--si-stroke` |
+| `label` | — | accessible name; without it the icon is decorative (`aria-hidden`) |
+| `class` | `"si-svg"` | `class` attribute |
 
-Os tipos TypeScript vêm incluídos. `IconName` é a união de todos os nomes, então o editor autocompleta e acusa erro de digitação.
+TypeScript types are included. `IconName` is the union of every name, so your editor autocompletes and flags typos.
 
 ### 5. Web component
 
@@ -182,37 +184,37 @@ Os tipos TypeScript vêm incluídos. `IconName` é a união de todos os nomes, e
 <script type="module" src="https://cdn.jsdelivr.net/npm/salve-icons/dist/element.js"></script>
 
 <s-icon name="bell"></s-icon>
-<s-icon name="trash" label="Excluir"></s-icon>
+<s-icon name="trash" label="Delete"></s-icon>
 <s-icon name="heart" stroke="1.25"></s-icon>
 ```
 
-O SVG fica dentro de um shadow DOM, mas a cor (`currentColor`), o `font-size`, `--si-size` e `--si-stroke` atravessam por herança, então o seu CSS controla o ícone de fora. Isso também evita erros de hydration em frameworks com SSR. Os atributos são reativos: trocar o `name` troca o ícone.
+The SVG lives in a shadow DOM, but color (`currentColor`), `font-size`, `--si-size` and `--si-stroke` pass through by inheritance, so your CSS controls the icon from outside. This also avoids hydration errors in SSR frameworks. Attributes are reactive: changing `name` swaps the icon.
 
-### Qual escolher?
+### Which one should I pick?
 
-| Situação | Forma recomendada |
+| Situation | Recommended |
 |---|---|
-| Site estático, WordPress, protótipo, "só quero que funcione" | **Classe CSS** |
-| Muitos ícones por página e traço ajustável | **Sprite** |
-| React, Next.js, Remix, Server Components | **Componentes React** |
-| Vue, Svelte, Astro, SSR em geral, quer o SVG no HTML | **Módulo JS** |
-| Vários frameworks, micro-frontends, HTML gerado por CMS | **Web component** |
+| Static site, WordPress, prototype, "I just want it to work" | **CSS class** |
+| React, Next.js, Remix, Server Components | **React components** |
+| Many icons per page and adjustable stroke | **Sprite** |
+| Vue, Svelte, Astro, SSR in general, SVG in the HTML | **JS module** |
+| Several frameworks, micro-frontends, CMS-generated HTML | **Web component** |
 
 ---
 
-## SSR e Next.js
+## SSR and Next.js
 
-Todos os formatos funcionam com renderização no servidor. Testado num app **Next.js 16 (App Router)** com **Turbopack e com webpack**: o build passa, o React hidrata sem avisos e o console fica limpo.
+Every format works with server rendering. Tested in a **Next.js 16 (App Router)** app with **Turbopack and with webpack**: the build passes, React hydrates without warnings and the console stays clean.
 
-| Formato | No servidor | Observação |
+| Format | On the server | Note |
 |---|---|---|
-| Classe CSS | ✅ HTML puro | nada a configurar |
-| Componentes React | ✅ Server Components | sem hooks, sem `"use client"` |
-| Módulo JS (`svg()`) | ✅ string | ideal para Astro, Vue SSR, templates |
-| Sprite | ✅ HTML puro | sirva o `sprite.svg` como arquivo estático |
-| Web component | ✅ importável no servidor | o módulo não faz nada no servidor; o ícone aparece quando o JS carrega |
+| CSS class | ✅ plain HTML | nothing to configure |
+| React components | ✅ Server Components | no hooks, no `"use client"` |
+| JS module (`svg()`) | ✅ string | ideal for Astro, Vue SSR, templates |
+| Sprite | ✅ plain HTML | serve `sprite.svg` as a static file |
+| Web component | ✅ safe to import on the server | the module does nothing on the server; the icon shows up when the JS loads |
 
-**Next.js (App Router), do zero:**
+**Next.js (App Router), from scratch:**
 
 ```bash
 npm i salve-css salve-icons
@@ -221,11 +223,11 @@ npm i salve-css salve-icons
 ```jsx
 // app/layout.jsx
 import "salve-css";
-import "salve-icons/css";   // opcional: só se usar as classes .si-*
+import "salve-icons/css";   // optional: only if you use the .si-* classes
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="pt-BR">
+    <html lang="en">
       <body>{children}</body>
     </html>
   );
@@ -240,16 +242,16 @@ export default function Page() {
   return (
     <div className="input-group">
       <span><SearchIcon /></span>
-      <input className="input" placeholder="Buscar" />
-      <button className="btn btn-ghost btn-icon" aria-label="Notificações"><BellIcon /></button>
+      <input className="input" placeholder="Search" />
+      <button className="btn btn-ghost btn-icon" aria-label="Notifications"><BellIcon /></button>
     </div>
   );
 }
 ```
 
-Os componentes React não precisam do `salve-icons/css`, porque o traço e o tamanho vêm de atributos. Com o CSS carregado, eles também obedecem `--si-size` e `--si-stroke`.
+React components don't need `salve-icons/css`, because stroke and size come from attributes. With the CSS loaded, they also respect `--si-size` and `--si-stroke`.
 
-**Usando `<s-icon>` no Next.js:** importe o módulo num componente cliente.
+**Using `<s-icon>` in Next.js:** import the module in a client component.
 
 ```jsx
 "use client";
@@ -260,42 +262,44 @@ export const Zap = () => <s-icon name="zap"></s-icon>;
 
 ---
 
-## Tamanho, cor e traço
+## Size, color and stroke
 
-**Tamanho:** por padrão, `1em`. Mude o `font-size` do pai, use uma classe de tamanho ou a variável:
+**Size:** `1em` by default. Change the parent's `font-size`, use a size class or the variable:
 
 ```html
-<i class="si si-star si-lg"></i>               <!-- 1.25em -->
+<i class="si si-star si-lg"></i>                <!-- 1.25em -->
 <i class="si si-star" style="--si-size: 32px"></i>
-<h2><i class="si si-zap"></i> Rápido</h2>      <!-- cresce com o título -->
+<h2><i class="si si-zap"></i> Fast</h2>        <!-- grows with the heading -->
 ```
 
-| Classe | Tamanho |
+| Class | Size |
 |---|---|
 | `.si-xs` | 0.75em |
 | `.si-sm` | 0.875em |
-| (padrão) | 1em |
+| (default) | 1em |
 | `.si-lg` | 1.25em |
 | `.si-xl` | 1.5em |
 | `.si-2x` | 2em |
 
-**Cor:** sempre `currentColor`. Mude a cor do texto:
+**Color:** always `currentColor`. Change the text color:
 
 ```html
 <i class="si si-heart" style="color: crimson"></i>
-<i class="si si-check-circle text-success"></i>   <!-- utilitário do salve-css -->
+<i class="si si-check-circle text-success"></i>   <!-- salve-css utility -->
 ```
 
-**Traço:** no sprite, no módulo JS e no web component, a espessura é ajustável (`--si-stroke`, `strokeWidth` ou o atributo `stroke`). Nas classes CSS, o traço vem embutido. Para outro valor, gere o CSS pelo CLI com `--stroke`.
+**Stroke:** in the sprite, the JS module, React and the web component, the stroke width is adjustable (`--si-stroke`, `strokeWidth` or the `stroke` attribute). In CSS classes the stroke is baked in; for another value, build the CSS with the CLI and `--stroke`.
 
-**Animação:**
+**Animation:**
 
 ```html
 <i class="si si-loader si-spin" aria-hidden="true"></i>
 <i class="si si-bell si-pulse" aria-hidden="true"></i>
 ```
 
-**Direção (RTL):** setas que devem inverter em árabe ou hebraico recebem `.si-flip-rtl`.
+With salve-css you also get its whole [motion module](https://github.com/juliocarneiro/salve-css#motion): `animate-wiggle`, `animate-bounce`, `hover-grow` and more work on icons too.
+
+**Direction (RTL):** arrows that should flip in Arabic or Hebrew take `.si-flip-rtl`.
 
 ```html
 <i class="si si-arrow-right si-flip-rtl"></i>
@@ -303,13 +307,13 @@ export const Zap = () => <s-icon name="zap"></s-icon>;
 
 ---
 
-## Com o salve-css
+## With salve-css
 
-As duas bibliotecas foram feitas juntas:
+The two libraries were made together:
 
-- Os ícones dentro de `.btn` ganham espaçamento pelo `gap` do botão. Ícones `<svg>` também são dimensionados automaticamente.
-- Os tons e utilitários de cor do salve-css colorem os ícones: `class="si si-alert-triangle text-warning"`.
-- O CSS de ícones fica na camada `salve.icons`, então o seu CSS também vence aqui.
+- Icons inside `.btn` are spaced by the button's `gap` and sized to 1.15em; inside `.alert-icon` they're sized to the alert.
+- salve-css tones and color utilities color the icons: `class="si si-alert-triangle text-warning"`.
+- The icon CSS lives in the `salve.icons` layer, so your CSS wins here too.
 
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/salve-css/dist/salve.min.css">
@@ -317,19 +321,19 @@ As duas bibliotecas foram feitas juntas:
 
 <div class="alert tone-success" role="status">
   <i class="si si-check-circle alert-icon" aria-hidden="true"></i>
-  <div><p class="alert-title">Pagamento confirmado</p></div>
+  <div><p class="alert-title">Payment confirmed</p></div>
 </div>
 
-<button class="btn btn-icon btn-ghost" aria-label="Mais opções" data-tip="Mais opções">
+<button class="btn btn-icon btn-ghost" aria-label="More options" data-tip="More options">
   <i class="si si-more-horizontal" aria-hidden="true"></i>
 </button>
 ```
 
 ---
 
-## Usando com frameworks
+## Frameworks
 
-**React / Next.js / Remix:** use os [componentes React](#2-componentes-react).
+**React / Next.js / Remix:** use the [React components](#2-react-components).
 
 ```jsx
 import { CheckIcon } from "salve-icons/react";
@@ -361,75 +365,75 @@ defineProps({ name: String, label: String });
 <span style="display: inline-flex">{@html svg(name, { label, size: "1em" })}</span>
 ```
 
-**Astro** (renderiza no servidor, zero JS no cliente)
+**Astro** (renders on the server, zero client JS)
 
 ```astro
 ---
 import { svg } from "salve-icons";
 ---
-<button class="btn"><Fragment set:html={svg("plus", { size: "1em" })} /> Novo</button>
+<button class="btn"><Fragment set:html={svg("plus", { size: "1em" })} /> New</button>
 ```
 
-**Angular, Lit, qualquer framework:** use o web component.
+**Angular, Lit, any framework:** use the web component.
 
 ```js
 import "salve-icons/element";
 // <s-icon name="check"></s-icon>
 ```
 
-No Vue, avise ao compilador que `s-icon` é um elemento customizado (`compilerOptions.isCustomElement: tag => tag === 's-icon'`). No Angular, adicione `CUSTOM_ELEMENTS_SCHEMA` ao componente.
+In Vue, tell the compiler that `s-icon` is a custom element (`compilerOptions.isCustomElement: tag => tag === 's-icon'`). In Angular, add `CUSTOM_ELEMENTS_SCHEMA` to the component.
 
 ---
 
-## Acessibilidade
+## Accessibility
 
-- **Ícone decorativo** (há texto ao lado): esconda do leitor de tela.
+- **Decorative icon** (text next to it): hide it from screen readers.
   ```html
-  <button class="btn"><i class="si si-plus" aria-hidden="true"></i> Adicionar</button>
+  <button class="btn"><i class="si si-plus" aria-hidden="true"></i> Add</button>
   ```
-- **Ícone sozinho num botão:** o nome vai no botão.
+- **Icon-only button:** the name goes on the button.
   ```html
-  <button class="btn btn-icon" aria-label="Fechar"><i class="si si-x" aria-hidden="true"></i></button>
+  <button class="btn btn-icon" aria-label="Close"><i class="si si-x" aria-hidden="true"></i></button>
   ```
-- **Ícone que transmite informação sozinho:** use `label` (JS / web component), ou `role="img"` + `aria-label`.
+- **An icon that conveys information on its own:** use `label` (React / JS / web component), or `role="img"` + `aria-label`.
   ```html
-  <s-icon name="alert-triangle" label="Atenção"></s-icon>
+  <s-icon name="alert-triangle" label="Warning"></s-icon>
   ```
-- Não comunique estado só pela cor do ícone. Acompanhe com texto.
-- No alto contraste do Windows, os ícones de classe usam a cor de texto do sistema.
+- Don't convey state with the icon's color alone. Pair it with text.
+- In Windows High Contrast, class-based icons use the system text color.
 
 ---
 
-## Lista de ícones
+## Icon list
 
-| Categoria | Qtd. | Ícones |
+| Category | Count | Icons |
 |---|---|---|
-| **Setas** | 27 | `arrow-down` `arrow-down-left` `arrow-down-right` `arrow-left` `arrow-left-right` `arrow-right` `arrow-up` `arrow-up-down` `arrow-up-left` `arrow-up-right` `chevron-down` `chevron-left` `chevron-right` `chevron-up` `chevrons-down` `chevrons-left` `chevrons-right` `chevrons-up` `chevrons-up-down` `corner-down-left` `external-link` `move` `redo` `refresh` `rotate-ccw` `rotate-cw` `undo` |
+| **Arrows** | 27 | `arrow-down` `arrow-down-left` `arrow-down-right` `arrow-left` `arrow-left-right` `arrow-right` `arrow-up` `arrow-up-down` `arrow-up-left` `arrow-up-right` `chevron-down` `chevron-left` `chevron-right` `chevron-up` `chevrons-down` `chevrons-left` `chevrons-right` `chevrons-up` `chevrons-up-down` `corner-down-left` `external-link` `move` `redo` `refresh` `rotate-ccw` `rotate-cw` `undo` |
 | **Interface** | 33 | `app-window` `circle` `columns` `droplet` `grip-vertical` `home` `infinity` `kanban` `layers` `layout-grid` `lightbulb` `list` `maximize` `menu` `minimize` `moon` `more-horizontal` `more-vertical` `palette` `pin` `power` `qr-code` `rows` `salve` `scan` `settings` `sidebar` `sliders` `square` `sun` `table` `toggle` `type` |
-| **Ações** | 34 | `archive` `check` `clipboard` `copy` `download` `edit` `eye` `eye-off` `filter` `filter-x` `key` `link` `lock` `log-in` `log-out` `minus` `paperclip` `pencil` `plus` `printer` `save` `scissors` `search` `send` `share` `shield` `shield-alert` `trash` `unlock` `upload` `wrench` `x` `zoom-in` `zoom-out` |
+| **Actions** | 34 | `archive` `check` `clipboard` `copy` `download` `edit` `eye` `eye-off` `filter` `filter-x` `key` `link` `lock` `log-in` `log-out` `minus` `paperclip` `pencil` `plus` `printer` `save` `scissors` `search` `send` `share` `shield` `shield-alert` `trash` `unlock` `upload` `wrench` `x` `zoom-in` `zoom-out` |
 | **Status** | 37 | `alert-circle` `alert-triangle` `award` `badge-check` `ban` `battery` `battery-charging` `battery-low` `bell` `bell-off` `bell-ring` `bluetooth` `bookmark` `check-circle` `circle-dot` `circle-minus` `circle-plus` `clock` `crown` `flag` `flame` `heart` `help-circle` `info` `loader` `octagon-alert` `shield-check` `signal` `smile` `sparkle` `star` `target` `thumbs-down` `thumbs-up` `trophy` `x-circle` `zap` |
-| **Comunicação** | 19 | `at-sign` `contact` `globe` `inbox` `mail` `mail-open` `megaphone` `message` `message-text` `phone` `phone-call` `rss` `user` `user-check` `user-minus` `user-plus` `user-x` `users` `wifi` |
-| **Arquivos** | 16 | `book` `cloud` `cloud-download` `cloud-upload` `code` `file` `file-check` `file-code` `file-plus` `file-text` `files` `folder` `folder-open` `folder-plus` `image` `terminal` |
-| **Mídia** | 18 | `camera` `film` `gamepad` `headphones` `mic` `mic-off` `music` `pause` `play` `repeat` `shuffle` `skip-back` `skip-forward` `stop` `video` `video-off` `volume` `volume-x` |
-| **Editor de texto** | 10 | `align-center` `align-left` `align-right` `bold` `heading` `italic` `list-ordered` `quote` `strikethrough` `underline` |
-| **Comércio e finanças** | 17 | `banknote` `barcode` `briefcase` `calculator` `cart` `coins` `credit-card` `dollar-sign` `gift` `package` `percent` `receipt` `shopping-bag` `tag` `ticket` `truck` `wallet` |
-| **Dispositivos** | 10 | `calendar` `keyboard` `laptop` `map-pin` `monitor` `mouse` `smartphone` `tablet` `tv` `watch` |
-| **Dados** | 7 | `activity` `bar-chart` `hash` `line-chart` `pie-chart` `trending-down` `trending-up` |
-| **Desenvolvimento** | 10 | `braces` `bug` `command` `cpu` `database` `git-branch` `git-commit` `git-merge` `git-pull-request` `server` |
-| **Clima** | 6 | `cloud-rain` `cloud-sun` `snowflake` `thermometer` `umbrella` `wind` |
-| **Mapas e viagem** | 13 | `anchor` `bike` `building` `car` `compass` `locate` `map` `mountain` `navigation` `plane` `route` `store` `train` |
-| **Tempo** | 6 | `alarm-clock` `calendar-check` `calendar-plus` `history` `hourglass` `timer` |
-| **Formas** | 4 | `diamond` `hexagon` `octagon` `triangle` |
-| **Dia a dia** | 9 | `book-open` `coffee` `graduation-cap` `heart-pulse` `leaf` `pill` `ruler` `sprout` `utensils` |
-| **Marcas e redes sociais** | 16 | `codepen` `discord` `dribbble` `facebook` `figma` `github` `instagram` `linkedin` `pinterest` `spotify` `telegram` `tiktok` `twitch` `whatsapp` `x-twitter` `youtube` |
+| **Communication** | 19 | `at-sign` `contact` `globe` `inbox` `mail` `mail-open` `megaphone` `message` `message-text` `phone` `phone-call` `rss` `user` `user-check` `user-minus` `user-plus` `user-x` `users` `wifi` |
+| **Files** | 16 | `book` `cloud` `cloud-download` `cloud-upload` `code` `file` `file-check` `file-code` `file-plus` `file-text` `files` `folder` `folder-open` `folder-plus` `image` `terminal` |
+| **Media** | 18 | `camera` `film` `gamepad` `headphones` `mic` `mic-off` `music` `pause` `play` `repeat` `shuffle` `skip-back` `skip-forward` `stop` `video` `video-off` `volume` `volume-x` |
+| **Text editor** | 10 | `align-center` `align-left` `align-right` `bold` `heading` `italic` `list-ordered` `quote` `strikethrough` `underline` |
+| **Commerce and finance** | 17 | `banknote` `barcode` `briefcase` `calculator` `cart` `coins` `credit-card` `dollar-sign` `gift` `package` `percent` `receipt` `shopping-bag` `tag` `ticket` `truck` `wallet` |
+| **Devices** | 10 | `calendar` `keyboard` `laptop` `map-pin` `monitor` `mouse` `smartphone` `tablet` `tv` `watch` |
+| **Data** | 7 | `activity` `bar-chart` `hash` `line-chart` `pie-chart` `trending-down` `trending-up` |
+| **Development** | 10 | `braces` `bug` `command` `cpu` `database` `git-branch` `git-commit` `git-merge` `git-pull-request` `server` |
+| **Weather** | 6 | `cloud-rain` `cloud-sun` `snowflake` `thermometer` `umbrella` `wind` |
+| **Maps and travel** | 13 | `anchor` `bike` `building` `car` `compass` `locate` `map` `mountain` `navigation` `plane` `route` `store` `train` |
+| **Time** | 6 | `alarm-clock` `calendar-check` `calendar-plus` `history` `hourglass` `timer` |
+| **Shapes** | 4 | `diamond` `hexagon` `octagon` `triangle` |
+| **Everyday** | 9 | `book-open` `coffee` `graduation-cap` `heart-pulse` `leaf` `pill` `ruler` `sprout` `utensils` |
+| **Brands and social** | 16 | `codepen` `discord` `dribbble` `facebook` `figma` `github` `instagram` `linkedin` `pinterest` `spotify` `telegram` `tiktok` `twitch` `whatsapp` `x-twitter` `youtube` |
 
-**Sobre as marcas:** os ícones de redes sociais são versões simplificadas, no mesmo traço do resto da biblioteca, para combinar com a interface. As marcas pertencem aos seus donos. Use esses ícones para apontar para os serviços (links de perfil, login social, compartilhar), seguindo as diretrizes de cada marca. Quando o logo oficial colorido for obrigatório, use os arquivos fornecidos pela própria marca.
+**About the brands:** social media icons are simplified versions, drawn with the same stroke as the rest of the library so they match your interface. The brands belong to their owners. Use these icons to point to the services (profile links, social login, share), following each brand's guidelines. When the official full-color logo is required, use the files provided by the brand itself.
 
-No terminal: `npx salve-icons list`. Para buscar com prévia e copiar com um clique, use o site de documentação.
+In the terminal: `npx salve-icons list`. To search with previews and copy with one click, use the documentation site.
 
 ---
 
-## CLI: pacote só com os ícones que você usa
+## CLI: a bundle with only the icons you use
 
 ```bash
 npx salve-icons build -i check,x,menu,search,trash -o public/icons
@@ -437,14 +441,14 @@ npx salve-icons build -s 1.5 -f css,sprite -o public/icons
 npx salve-icons list
 ```
 
-| Opção | Descrição |
+| Option | Description |
 |---|---|
-| `-i, --icons <a,b,c>` | só esses ícones (padrão: todos) |
-| `-s, --stroke <n>` | espessura do traço no CSS e nos SVGs (padrão: 1.75) |
-| `-o, --out <pasta>` | pasta de saída (padrão: `./salve-icons`) |
-| `-f, --formats <lista>` | `svg,sprite,css,js,json` (padrão: todos) |
+| `-i, --icons <a,b,c>` | only these icons (default: all) |
+| `-s, --stroke <n>` | stroke width in the CSS and SVG files (default: 1.75) |
+| `-o, --out <dir>` | output folder (default: `./salve-icons`) |
+| `-f, --formats <list>` | `svg,sprite,css,js,json` (default: all) |
 
-**API Node:**
+**Node API:**
 
 ```js
 import { buildIcons } from "salve-icons/build";
@@ -454,23 +458,23 @@ await buildIcons({ icons: ["check", "x"], stroke: 2, outDir: "public/icons", for
 
 ---
 
-## Diretrizes de desenho
+## Design guidelines
 
-Todos os ícones seguem as mesmas regras, para que fiquem consistentes lado a lado:
+Every icon follows the same rules, so they look consistent side by side:
 
-- **Grade:** `viewBox="0 0 24 24"`, com conteúdo dentro da área de 2 a 22 (respiro de 2px).
-- **Traço:** `1.75`, com pontas e junções arredondadas (`round`). Nada de preenchimento.
-- **Cor:** só `currentColor`.
-- **Raio dos cantos:** 2px em retângulos grandes, 1–1.5px nos pequenos.
-- **Pontos:** um traço de comprimento `.01` com ponta redonda (`M12 8h.01`) ou um círculo `r="1"`.
-- **Centro óptico:** formas triangulares e assimétricas são compensadas para parecer centralizadas.
-- **Metáforas:** universais e literais. Marcas entram só na categoria `brands`, simplificadas no mesmo traço.
+- **Grid:** `viewBox="0 0 24 24"`, with content inside the 2–22 area (2px padding).
+- **Stroke:** `1.75`, with round caps and joins. No fills.
+- **Color:** `currentColor` only.
+- **Corner radius:** 2px on large rectangles, 1–1.5px on small ones.
+- **Dots:** a `.01`-long stroke with a round cap (`M12 8h.01`) or an `r="1"` circle.
+- **Optical center:** triangular and asymmetric shapes are nudged to look centered.
+- **Metaphors:** universal and literal. Brands only in the `brands` category, simplified with the same stroke.
 
 ---
 
-## Contribuindo com um ícone
+## Contributing an icon
 
-1. Crie `src/icons/<nome>.svg` com a mesma moldura dos outros:
+1. Create `src/icons/<name>.svg` with the same frame as the others:
    ```svg
    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
         fill="none" stroke="currentColor" stroke-width="1.75"
@@ -478,47 +482,49 @@ Todos os ícones seguem as mesmas regras, para que fiquem consistentes lado a la
      <path d="…"/>
    </svg>
    ```
-2. Adicione `{ "name", "category", "tags" }` em `src/meta.json`. As tags devem ser em inglês e português, para a busca encontrar das duas formas.
-3. Rode `npm run build` e confira o ícone ao lado dos outros no site.
+2. Add `{ "name", "category", "tags" }` to `src/meta.json`. Tags should be in English and Portuguese, so search works both ways.
+3. Run `npm run build` and check the icon next to the others on the site.
 
-Nomes em inglês, `kebab-case`, descrevendo **o desenho** (`trash`), não a ação (`delete`). As ações entram nas tags.
-
----
-
-## Perguntas frequentes
-
-**Por que a classe CSS usa máscara em vez de fonte de ícones?**
-Fontes de ícones ficam borradas, quebram quando a fonte não carrega e são lidas como caracteres estranhos por leitores de tela. A máscara usa o SVG de verdade e pinta com `currentColor`.
-
-**Os ícones de classe funcionam em todos os navegadores?**
-Sim. `mask-image` é suportado em todos os navegadores modernos (Chrome, Edge, Firefox, Safari).
-
-**Posso usar sem o salve-css?**
-Pode. O salve-icons é independente e não precisa de mais nada.
-
-**Como deixo o traço mais fino nas classes CSS?**
-Gere o CSS pelo CLI: `npx salve-icons build -s 1.25 -f css`.
-
-**Faltou um ícone que eu preciso.**
-Abra uma issue ou envie um PR seguindo as [diretrizes de desenho](#diretrizes-de-desenho).
+Names are in English, `kebab-case`, and describe **the drawing** (`trash`), not the action (`delete`). Actions go into the tags.
 
 ---
 
-## Desenvolvimento
+## FAQ
+
+**Why does the CSS class use a mask instead of an icon font?**
+Icon fonts get blurry, break when the font fails to load and are read as odd characters by screen readers. The mask uses the real SVG and paints it with `currentColor`.
+
+**Do class-based icons work in every browser?**
+Yes. `mask-image` is supported in every modern browser (Chrome, Edge, Firefox, Safari).
+
+**Can I use it without salve-css?**
+Yes. salve-icons is standalone and needs nothing else.
+
+**How do I make the stroke thinner in the CSS classes?**
+Build the CSS with the CLI: `npx salve-icons build -s 1.25 -f css`.
+
+**An icon I need is missing.**
+Open an issue or send a PR following the [design guidelines](#design-guidelines).
+
+---
+
+## Development
 
 ```bash
-npm run build        # gera dist/ a partir de src/icons
+npm run build        # builds dist/ from src/icons
 ```
 
 ```
-src/icons/*.svg     fonte da verdade (um arquivo por ícone)
-src/meta.json       categorias e tags
-src/element.js      web component <s-icon>
-lib/build.js        gera svg/, sprite, CSS, módulo JS, tipos e JSON
-bin/                CLI salve-icons
-dist/               gerado (publicado no npm, fora do git)
+src/icons/*.svg     source of truth (one file per icon)
+src/meta.json       categories and tags
+src/element.js      <s-icon> web component
+lib/build.js        builds svg/, sprite, CSS, JS module, React components, types and JSON
+bin/                salve-icons CLI
+dist/               built (published to npm, not in git)
 ```
 
-## Licença
+See the [CHANGELOG](CHANGELOG.md) for what changed in each version.
+
+## License
 
 MIT © Julio Carneiro
