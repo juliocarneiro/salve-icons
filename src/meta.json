@@ -6,7 +6,10 @@
       "pulse",
       "health",
       "monitor",
-      "atividade"
+      "atividade",
+      "saúde",
+      "monitorar",
+      "pulso"
     ]
   },
   {
@@ -15,7 +18,8 @@
     "tags": [
       "alarme",
       "despertador",
-      "wake"
+      "wake",
+      "acordar"
     ]
   },
   {
@@ -24,7 +28,9 @@
     "tags": [
       "error",
       "erro",
-      "warning"
+      "warning",
+      "alerta",
+      "aviso"
     ]
   },
   {
@@ -33,7 +39,10 @@
     "tags": [
       "warning",
       "atenção",
-      "caution"
+      "caution",
+      "alerta",
+      "aviso",
+      "cuidado"
     ]
   },
   {
@@ -41,7 +50,9 @@
     "category": "editor",
     "tags": [
       "text",
-      "centralizar"
+      "centralizar",
+      "texto",
+      "centro"
     ]
   },
   {
@@ -49,7 +60,9 @@
     "category": "editor",
     "tags": [
       "text",
-      "alinhar esquerda"
+      "alinhar esquerda",
+      "texto",
+      "esquerda"
     ]
   },
   {
@@ -57,7 +70,9 @@
     "category": "editor",
     "tags": [
       "text",
-      "alinhar direita"
+      "alinhar direita",
+      "texto",
+      "direita"
     ]
   },
   {
@@ -66,7 +81,10 @@
     "tags": [
       "âncora",
       "marine",
-      "port"
+      "port",
+      "porto",
+      "marinha",
+      "link"
     ]
   },
   {
@@ -75,7 +93,9 @@
     "tags": [
       "browser",
       "janela",
-      "window"
+      "window",
+      "navegador",
+      "aplicativo"
     ]
   },
   {
@@ -84,7 +104,9 @@
     "tags": [
       "box",
       "arquivar",
-      "storage"
+      "storage",
+      "caixa",
+      "guardar"
     ]
   },
   {
@@ -92,21 +114,30 @@
     "category": "arrows",
     "tags": [
       "down",
-      "baixo"
+      "baixo",
+      "seta",
+      "seta para baixo",
+      "descer"
     ]
   },
   {
     "name": "arrow-down-left",
     "category": "arrows",
     "tags": [
-      "diagonal"
+      "diagonal",
+      "seta",
+      "seta diagonal",
+      "baixo esquerda"
     ]
   },
   {
     "name": "arrow-down-right",
     "category": "arrows",
     "tags": [
-      "diagonal"
+      "diagonal",
+      "seta",
+      "seta diagonal",
+      "baixo direita"
     ]
   },
   {
@@ -115,7 +146,9 @@
     "tags": [
       "back",
       "voltar",
-      "esquerda"
+      "esquerda",
+      "seta",
+      "seta para esquerda"
     ]
   },
   {
@@ -124,7 +157,9 @@
     "tags": [
       "swap",
       "horizontal",
-      "trocar"
+      "trocar",
+      "seta",
+      "setas"
     ]
   },
   {
@@ -133,7 +168,10 @@
     "tags": [
       "next",
       "avançar",
-      "direita"
+      "direita",
+      "seta",
+      "seta para direita",
+      "próximo"
     ]
   },
   {
@@ -142,7 +180,11 @@
     "tags": [
       "up",
       "top",
-      "cima"
+      "cima",
+      "seta",
+      "seta para cima",
+      "subir",
+      "topo"
     ]
   },
   {
@@ -151,14 +193,19 @@
     "tags": [
       "sort",
       "vertical",
-      "ordenar"
+      "ordenar",
+      "seta",
+      "setas"
     ]
   },
   {
     "name": "arrow-up-left",
     "category": "arrows",
     "tags": [
-      "diagonal"
+      "diagonal",
+      "seta",
+      "seta diagonal",
+      "cima esquerda"
     ]
   },
   {
@@ -166,7 +213,11 @@
     "category": "arrows",
     "tags": [
       "external",
-      "diagonal"
+      "diagonal",
+      "seta",
+      "seta diagonal",
+      "link externo",
+      "cima direita"
     ]
   },
   {
@@ -175,7 +226,9 @@
     "tags": [
       "mention",
       "email",
-      "arroba"
+      "arroba",
+      "menção",
+      "e-mail"
     ]
   },
   {
@@ -194,7 +247,9 @@
     "tags": [
       "verified",
       "verificado",
-      "certified"
+      "certified",
+      "certificado",
+      "selo"
     ]
   },
   {
@@ -251,7 +306,9 @@
     "category": "status",
     "tags": [
       "carregando",
-      "charging"
+      "charging",
+      "bateria",
+      "energia"
     ]
   },
   {
@@ -259,7 +316,8 @@
     "category": "status",
     "tags": [
       "bateria fraca",
-      "low power"
+      "low power",
+      "energia"
     ]
   },
   {
@@ -268,7 +326,9 @@
     "tags": [
       "notification",
       "notificação",
-      "alert"
+      "alert",
+      "sino",
+      "alerta"
     ]
   },
   {
@@ -276,7 +336,10 @@
     "category": "status",
     "tags": [
       "mute",
-      "silenciar"
+      "silenciar",
+      "sino",
+      "sem notificação",
+      "mudo"
     ]
   },
   {
@@ -285,7 +348,10 @@
     "tags": [
       "alarm",
       "notification",
-      "tocando"
+      "tocando",
+      "sino",
+      "alarme",
+      "notificação"
     ]
   },
   {
@@ -294,7 +360,9 @@
     "tags": [
       "bicycle",
       "bicicleta",
-      "cycling"
+      "cycling",
+      "ciclismo",
+      "pedalar"
     ]
   },
   {
@@ -302,7 +370,8 @@
     "category": "status",
     "tags": [
       "wireless",
-      "conexão"
+      "conexão",
+      "sem fio"
     ]
   },
   {
@@ -311,7 +380,9 @@
     "tags": [
       "negrito",
       "strong",
-      "text"
+      "text",
+      "texto",
+      "forte"
     ]
   },
   {
@@ -341,7 +412,9 @@
     "tags": [
       "save",
       "salvar",
-      "favorite"
+      "favorite",
+      "favorito",
+      "marcador"
     ]
   },
   {
@@ -352,7 +425,9 @@
       "code",
       "curly",
       "chaves",
-      "object"
+      "object",
+      "código",
+      "objeto"
     ]
   },
   {
@@ -361,7 +436,9 @@
     "tags": [
       "work",
       "trabalho",
-      "business"
+      "business",
+      "maleta",
+      "negócios"
     ]
   },
   {
@@ -391,7 +468,9 @@
     "tags": [
       "calculadora",
       "math",
-      "finance"
+      "finance",
+      "matemática",
+      "finanças"
     ]
   },
   {
@@ -401,7 +480,9 @@
       "date",
       "data",
       "agenda",
-      "schedule"
+      "schedule",
+      "calendário",
+      "agendar"
     ]
   },
   {
@@ -410,7 +491,9 @@
     "tags": [
       "scheduled",
       "agendado",
-      "event done"
+      "event done",
+      "calendário",
+      "evento concluído"
     ]
   },
   {
@@ -419,7 +502,8 @@
     "tags": [
       "new event",
       "agendar",
-      "novo evento"
+      "novo evento",
+      "calendário"
     ]
   },
   {
@@ -428,7 +512,8 @@
     "tags": [
       "photo",
       "câmera",
-      "foto"
+      "foto",
+      "fotografia"
     ]
   },
   {
@@ -438,7 +523,9 @@
       "carro",
       "vehicle",
       "auto",
-      "uber"
+      "uber",
+      "veículo",
+      "automóvel"
     ]
   },
   {
@@ -458,7 +545,11 @@
       "done",
       "ok",
       "confirm",
-      "feito"
+      "feito",
+      "confirmar",
+      "concluído",
+      "certo",
+      "marcar"
     ]
   },
   {
@@ -467,7 +558,9 @@
     "tags": [
       "success",
       "sucesso",
-      "done"
+      "done",
+      "concluído",
+      "certo"
     ]
   },
   {
@@ -476,7 +569,11 @@
     "tags": [
       "expand",
       "dropdown",
-      "select"
+      "select",
+      "seta",
+      "expandir",
+      "abrir",
+      "baixo"
     ]
   },
   {
@@ -484,7 +581,11 @@
     "category": "arrows",
     "tags": [
       "previous",
-      "back"
+      "back",
+      "seta",
+      "anterior",
+      "voltar",
+      "esquerda"
     ]
   },
   {
@@ -492,7 +593,11 @@
     "category": "arrows",
     "tags": [
       "next",
-      "forward"
+      "forward",
+      "seta",
+      "próximo",
+      "avançar",
+      "direita"
     ]
   },
   {
@@ -500,7 +605,11 @@
     "category": "arrows",
     "tags": [
       "collapse",
-      "up"
+      "up",
+      "seta",
+      "recolher",
+      "fechar",
+      "cima"
     ]
   },
   {
@@ -508,7 +617,10 @@
     "category": "arrows",
     "tags": [
       "bottom",
-      "expand"
+      "expand",
+      "setas",
+      "expandir",
+      "fim"
     ]
   },
   {
@@ -517,7 +629,10 @@
     "tags": [
       "first",
       "rewind",
-      "início"
+      "início",
+      "setas",
+      "primeiro",
+      "retroceder"
     ]
   },
   {
@@ -526,7 +641,10 @@
     "tags": [
       "last",
       "forward",
-      "fim"
+      "fim",
+      "setas",
+      "último",
+      "avançar"
     ]
   },
   {
@@ -534,7 +652,10 @@
     "category": "arrows",
     "tags": [
       "top",
-      "priority"
+      "priority",
+      "setas",
+      "topo",
+      "prioridade"
     ]
   },
   {
@@ -543,7 +664,9 @@
     "tags": [
       "sort",
       "select",
-      "ordenar"
+      "ordenar",
+      "setas",
+      "selecionar"
     ]
   },
   {
@@ -551,7 +674,10 @@
     "category": "interface",
     "tags": [
       "shape",
-      "round"
+      "round",
+      "círculo",
+      "forma",
+      "redondo"
     ]
   },
   {
@@ -560,7 +686,9 @@
     "tags": [
       "record",
       "radio",
-      "status"
+      "status",
+      "gravar",
+      "opção"
     ]
   },
   {
@@ -568,7 +696,9 @@
     "category": "status",
     "tags": [
       "remove",
-      "remover"
+      "remover",
+      "menos",
+      "subtrair"
     ]
   },
   {
@@ -576,7 +706,9 @@
     "category": "status",
     "tags": [
       "add",
-      "adicionar"
+      "adicionar",
+      "mais",
+      "novo"
     ]
   },
   {
@@ -584,7 +716,9 @@
     "category": "actions",
     "tags": [
       "paste",
-      "colar"
+      "colar",
+      "área de transferência",
+      "prancheta"
     ]
   },
   {
@@ -594,7 +728,9 @@
       "time",
       "hora",
       "relógio",
-      "pending"
+      "pending",
+      "tempo",
+      "pendente"
     ]
   },
   {
@@ -603,7 +739,9 @@
     "tags": [
       "storage",
       "nuvem",
-      "upload"
+      "upload",
+      "armazenamento",
+      "enviar"
     ]
   },
   {
@@ -631,7 +769,10 @@
     "tags": [
       "parcialmente nublado",
       "weather",
-      "clima"
+      "clima",
+      "sol",
+      "nuvem",
+      "tempo"
     ]
   },
   {
@@ -650,7 +791,9 @@
       "dev",
       "html",
       "código",
-      "brackets"
+      "brackets",
+      "programação",
+      "desenvolvimento"
     ]
   },
   {
@@ -659,7 +802,9 @@
     "tags": [
       "code",
       "dev",
-      "playground"
+      "playground",
+      "código",
+      "programação"
     ]
   },
   {
@@ -669,7 +814,9 @@
       "café",
       "cafe",
       "drink",
-      "break"
+      "break",
+      "bebida",
+      "pausa"
     ]
   },
   {
@@ -688,7 +835,8 @@
     "tags": [
       "split",
       "layout",
-      "colunas"
+      "colunas",
+      "dividir"
     ]
   },
   {
@@ -699,7 +847,8 @@
       "mac",
       "keyboard",
       "atalho",
-      "shortcut"
+      "shortcut",
+      "teclado"
     ]
   },
   {
@@ -708,7 +857,9 @@
     "tags": [
       "bússola",
       "explore",
-      "direction"
+      "direction",
+      "explorar",
+      "direção"
     ]
   },
   {
@@ -719,7 +870,9 @@
       "crachá",
       "identidade",
       "cpf",
-      "badge"
+      "badge",
+      "contato",
+      "documento"
     ]
   },
   {
@@ -728,7 +881,9 @@
     "tags": [
       "duplicate",
       "copiar",
-      "clone"
+      "clone",
+      "duplicar",
+      "clonar"
     ]
   },
   {
@@ -736,7 +891,10 @@
     "category": "arrows",
     "tags": [
       "enter",
-      "return"
+      "return",
+      "seta",
+      "retornar",
+      "quebra de linha"
     ]
   },
   {
@@ -755,7 +913,9 @@
     "tags": [
       "payment",
       "pagamento",
-      "cartão"
+      "cartão",
+      "cartão de crédito",
+      "débito"
     ]
   },
   {
@@ -775,7 +935,9 @@
       "db",
       "banco de dados",
       "storage",
-      "sql"
+      "sql",
+      "dados",
+      "armazenamento"
     ]
   },
   {
@@ -784,7 +946,9 @@
     "tags": [
       "losango",
       "rhombus",
-      "shape"
+      "shape",
+      "diamante",
+      "forma"
     ]
   },
   {
@@ -816,7 +980,9 @@
     "tags": [
       "baixar",
       "save",
-      "export"
+      "export",
+      "salvar",
+      "exportar"
     ]
   },
   {
@@ -825,7 +991,8 @@
     "tags": [
       "design",
       "portfolio",
-      "social"
+      "social",
+      "portfólio"
     ]
   },
   {
@@ -834,7 +1001,9 @@
     "tags": [
       "water",
       "color",
-      "gota"
+      "gota",
+      "água",
+      "cor"
     ]
   },
   {
@@ -853,7 +1022,10 @@
     "tags": [
       "open",
       "new tab",
-      "abrir"
+      "abrir",
+      "seta",
+      "link externo",
+      "nova aba"
     ]
   },
   {
@@ -863,7 +1035,9 @@
       "view",
       "show",
       "ver",
-      "mostrar"
+      "mostrar",
+      "visualizar",
+      "olho"
     ]
   },
   {
@@ -872,7 +1046,9 @@
     "tags": [
       "hide",
       "esconder",
-      "ocultar"
+      "ocultar",
+      "olho",
+      "invisível"
     ]
   },
   {
@@ -891,7 +1067,8 @@
     "tags": [
       "design",
       "ui",
-      "prototype"
+      "prototype",
+      "protótipo"
     ]
   },
   {
@@ -900,7 +1077,9 @@
     "tags": [
       "document",
       "arquivo",
-      "page"
+      "page",
+      "documento",
+      "página"
     ]
   },
   {
@@ -909,7 +1088,9 @@
     "tags": [
       "approved",
       "aprovado",
-      "done"
+      "done",
+      "arquivo",
+      "concluído"
     ]
   },
   {
@@ -918,7 +1099,8 @@
     "tags": [
       "source",
       "código",
-      "script"
+      "script",
+      "arquivo"
     ]
   },
   {
@@ -926,7 +1108,8 @@
     "category": "files",
     "tags": [
       "new file",
-      "novo arquivo"
+      "novo arquivo",
+      "arquivo"
     ]
   },
   {
@@ -935,7 +1118,9 @@
     "tags": [
       "document",
       "documento",
-      "text"
+      "text",
+      "arquivo",
+      "texto"
     ]
   },
   {
@@ -944,7 +1129,9 @@
     "tags": [
       "documents",
       "copies",
-      "arquivos"
+      "arquivos",
+      "documentos",
+      "cópias"
     ]
   },
   {
@@ -961,7 +1148,8 @@
     "category": "actions",
     "tags": [
       "funnel",
-      "filtrar"
+      "filtrar",
+      "funil"
     ]
   },
   {
@@ -978,7 +1166,9 @@
     "tags": [
       "report",
       "bandeira",
-      "milestone"
+      "milestone",
+      "denunciar",
+      "marco"
     ]
   },
   {
@@ -997,7 +1187,8 @@
     "category": "files",
     "tags": [
       "directory",
-      "pasta"
+      "pasta",
+      "diretório"
     ]
   },
   {
@@ -1005,7 +1196,8 @@
     "category": "files",
     "tags": [
       "directory",
-      "pasta aberta"
+      "pasta aberta",
+      "diretório"
     ]
   },
   {
@@ -1013,7 +1205,8 @@
     "category": "files",
     "tags": [
       "new folder",
-      "nova pasta"
+      "nova pasta",
+      "diretório"
     ]
   },
   {
@@ -1041,7 +1234,9 @@
     "tags": [
       "branch",
       "version control",
-      "git"
+      "git",
+      "ramo",
+      "versão"
     ]
   },
   {
@@ -1050,7 +1245,8 @@
     "tags": [
       "commit",
       "git",
-      "version"
+      "version",
+      "versão"
     ]
   },
   {
@@ -1058,7 +1254,9 @@
     "category": "development",
     "tags": [
       "merge",
-      "git"
+      "git",
+      "mesclar",
+      "juntar"
     ]
   },
   {
@@ -1068,7 +1266,8 @@
       "pr",
       "pull request",
       "git",
-      "review"
+      "review",
+      "revisão"
     ]
   },
   {
@@ -1078,7 +1277,9 @@
       "git",
       "code",
       "social",
-      "repository"
+      "repository",
+      "código",
+      "repositório"
     ]
   },
   {
@@ -1089,7 +1290,9 @@
       "web",
       "idioma",
       "language",
-      "internet"
+      "internet",
+      "mundo",
+      "globo"
     ]
   },
   {
@@ -1109,7 +1312,9 @@
     "tags": [
       "drag",
       "handle",
-      "arrastar"
+      "arrastar",
+      "alça",
+      "mover"
     ]
   },
   {
@@ -1119,7 +1324,10 @@
       "number",
       "tag",
       "channel",
-      "número"
+      "número",
+      "canal",
+      "cerquilha",
+      "hashtag"
     ]
   },
   {
@@ -1128,7 +1336,9 @@
     "tags": [
       "título",
       "h1",
-      "header"
+      "header",
+      "cabeçalho",
+      "texto"
     ]
   },
   {
@@ -1138,7 +1348,9 @@
       "fone",
       "audio",
       "support",
-      "suporte"
+      "suporte",
+      "fone de ouvido",
+      "áudio"
     ]
   },
   {
@@ -1148,7 +1360,10 @@
       "like",
       "love",
       "curtir",
-      "favorite"
+      "favorite",
+      "coração",
+      "amor",
+      "favorito"
     ]
   },
   {
@@ -1167,7 +1382,8 @@
     "tags": [
       "question",
       "ajuda",
-      "dúvida"
+      "dúvida",
+      "pergunta"
     ]
   },
   {
@@ -1215,7 +1431,8 @@
       "photo",
       "picture",
       "imagem",
-      "foto"
+      "foto",
+      "figura"
     ]
   },
   {
@@ -1223,7 +1440,9 @@
     "category": "communication",
     "tags": [
       "caixa de entrada",
-      "messages"
+      "messages",
+      "mensagens",
+      "entrada"
     ]
   },
   {
@@ -1242,7 +1461,8 @@
     "tags": [
       "information",
       "informação",
-      "help"
+      "help",
+      "ajuda"
     ]
   },
   {
@@ -1260,7 +1480,9 @@
     "category": "editor",
     "tags": [
       "itálico",
-      "emphasis"
+      "emphasis",
+      "texto",
+      "ênfase"
     ]
   },
   {
@@ -1269,7 +1491,8 @@
     "tags": [
       "board",
       "quadro",
-      "tasks"
+      "tasks",
+      "tarefas"
     ]
   },
   {
@@ -1278,7 +1501,9 @@
     "tags": [
       "password",
       "chave",
-      "access"
+      "access",
+      "senha",
+      "acesso"
     ]
   },
   {
@@ -1287,7 +1512,8 @@
     "tags": [
       "teclado",
       "typing",
-      "input"
+      "input",
+      "digitar"
     ]
   },
   {
@@ -1304,7 +1530,8 @@
     "category": "interface",
     "tags": [
       "stack",
-      "camadas"
+      "camadas",
+      "pilha"
     ]
   },
   {
@@ -1313,7 +1540,10 @@
     "tags": [
       "grid",
       "apps",
-      "dashboard"
+      "dashboard",
+      "grade",
+      "painel",
+      "aplicativos"
     ]
   },
   {
@@ -1344,7 +1574,8 @@
     "tags": [
       "gráfico",
       "analytics",
-      "trend"
+      "trend",
+      "tendência"
     ]
   },
   {
@@ -1353,7 +1584,9 @@
     "tags": [
       "url",
       "chain",
-      "href"
+      "href",
+      "corrente",
+      "endereço"
     ]
   },
   {
@@ -1373,7 +1606,9 @@
     "tags": [
       "lista",
       "items",
-      "bullets"
+      "bullets",
+      "itens",
+      "marcadores"
     ]
   },
   {
@@ -1381,7 +1616,9 @@
     "category": "editor",
     "tags": [
       "numbered",
-      "lista numerada"
+      "lista numerada",
+      "lista",
+      "numerada"
     ]
   },
   {
@@ -1401,7 +1638,9 @@
       "crosshair",
       "gps",
       "my location",
-      "localizar"
+      "localizar",
+      "minha localização",
+      "mira"
     ]
   },
   {
@@ -1411,7 +1650,10 @@
       "secure",
       "password",
       "senha",
-      "cadeado"
+      "cadeado",
+      "seguro",
+      "bloquear",
+      "trancar"
     ]
   },
   {
@@ -1467,7 +1709,9 @@
       "location",
       "local",
       "endereço",
-      "map"
+      "map",
+      "pino",
+      "localização"
     ]
   },
   {
@@ -1475,7 +1719,10 @@
     "category": "interface",
     "tags": [
       "fullscreen",
-      "expand"
+      "expand",
+      "tela cheia",
+      "expandir",
+      "maximizar"
     ]
   },
   {
@@ -1493,7 +1740,9 @@
     "category": "interface",
     "tags": [
       "hamburger",
-      "nav"
+      "nav",
+      "hambúrguer",
+      "navegação"
     ]
   },
   {
@@ -1523,7 +1772,8 @@
       "microphone",
       "microfone",
       "audio",
-      "voice"
+      "voice",
+      "voz"
     ]
   },
   {
@@ -1540,7 +1790,10 @@
     "category": "interface",
     "tags": [
       "exit fullscreen",
-      "shrink"
+      "shrink",
+      "sair da tela cheia",
+      "reduzir",
+      "minimizar"
     ]
   },
   {
@@ -1548,7 +1801,10 @@
     "category": "actions",
     "tags": [
       "remove",
-      "subtract"
+      "subtract",
+      "menos",
+      "remover",
+      "subtrair"
     ]
   },
   {
@@ -1577,7 +1833,10 @@
     "tags": [
       "dots",
       "options",
-      "mais"
+      "mais",
+      "opções",
+      "pontos",
+      "reticências"
     ]
   },
   {
@@ -1586,7 +1845,10 @@
     "tags": [
       "dots",
       "kebab",
-      "options"
+      "options",
+      "opções",
+      "pontos",
+      "mais"
     ]
   },
   {
@@ -1604,7 +1866,10 @@
     "tags": [
       "pointer",
       "click",
-      "scroll"
+      "scroll",
+      "ponteiro",
+      "clicar",
+      "rolar"
     ]
   },
   {
@@ -1613,7 +1878,9 @@
     "tags": [
       "drag",
       "mover",
-      "pan"
+      "pan",
+      "arrastar",
+      "setas"
     ]
   },
   {
@@ -1623,7 +1890,8 @@
       "song",
       "música",
       "audio",
-      "nota"
+      "nota",
+      "canção"
     ]
   },
   {
@@ -1633,7 +1901,8 @@
       "gps",
       "direction",
       "navegação",
-      "location"
+      "location",
+      "direção"
     ]
   },
   {
@@ -1642,7 +1911,9 @@
     "tags": [
       "octógono",
       "shape",
-      "stop"
+      "stop",
+      "forma",
+      "pare"
     ]
   },
   {
@@ -1652,7 +1923,9 @@
       "stop",
       "error",
       "pare",
-      "critical"
+      "critical",
+      "erro",
+      "crítico"
     ]
   },
   {
@@ -1681,7 +1954,9 @@
     "tags": [
       "attach",
       "anexo",
-      "clip"
+      "clip",
+      "clipe",
+      "anexar"
     ]
   },
   {
@@ -1689,7 +1964,8 @@
     "category": "media",
     "tags": [
       "pausar",
-      "stop"
+      "stop",
+      "parar"
     ]
   },
   {
@@ -1698,7 +1974,9 @@
     "tags": [
       "edit",
       "editar",
-      "write"
+      "write",
+      "lápis",
+      "escrever"
     ]
   },
   {
@@ -1717,7 +1995,9 @@
     "tags": [
       "call",
       "telefone",
-      "ligar"
+      "ligar",
+      "celular",
+      "chamada"
     ]
   },
   {
@@ -1726,7 +2006,9 @@
     "tags": [
       "calling",
       "ligação",
-      "ringing"
+      "ringing",
+      "chamando",
+      "telefone"
     ]
   },
   {
@@ -1735,7 +2017,8 @@
     "tags": [
       "gráfico pizza",
       "analytics",
-      "share"
+      "share",
+      "gráfico"
     ]
   },
   {
@@ -1754,7 +2037,8 @@
     "tags": [
       "pushpin",
       "fixar",
-      "alfinete"
+      "alfinete",
+      "tachinha"
     ]
   },
   {
@@ -1763,7 +2047,9 @@
     "tags": [
       "social",
       "inspiration",
-      "pins"
+      "pins",
+      "inspiração",
+      "rede social"
     ]
   },
   {
@@ -1783,7 +2069,9 @@
     "tags": [
       "start",
       "iniciar",
-      "tocar"
+      "tocar",
+      "reproduzir",
+      "começar"
     ]
   },
   {
@@ -1793,7 +2081,9 @@
       "add",
       "new",
       "novo",
-      "adicionar"
+      "adicionar",
+      "mais",
+      "criar"
     ]
   },
   {
@@ -1803,7 +2093,8 @@
       "on off",
       "ligar",
       "desligar",
-      "shutdown"
+      "shutdown",
+      "energia"
     ]
   },
   {
@@ -1822,7 +2113,8 @@
       "qr",
       "código",
       "scan",
-      "pix"
+      "pix",
+      "escanear"
     ]
   },
   {
@@ -1841,7 +2133,9 @@
       "invoice",
       "recibo",
       "nota",
-      "bill"
+      "bill",
+      "fatura",
+      "nota fiscal"
     ]
   },
   {
@@ -1849,7 +2143,9 @@
     "category": "arrows",
     "tags": [
       "refazer",
-      "forward"
+      "forward",
+      "seta",
+      "avançar"
     ]
   },
   {
@@ -1858,7 +2154,10 @@
     "tags": [
       "reload",
       "sync",
-      "atualizar"
+      "atualizar",
+      "recarregar",
+      "sincronizar",
+      "seta circular"
     ]
   },
   {
@@ -1875,7 +2174,10 @@
     "tags": [
       "rotate",
       "undo",
-      "girar"
+      "girar",
+      "seta",
+      "anti-horário",
+      "desfazer"
     ]
   },
   {
@@ -1884,7 +2186,10 @@
     "tags": [
       "rotate",
       "redo",
-      "girar"
+      "girar",
+      "seta",
+      "horário",
+      "refazer"
     ]
   },
   {
@@ -1894,7 +2199,9 @@
       "path",
       "rota",
       "trajeto",
-      "directions"
+      "directions",
+      "caminho",
+      "direções"
     ]
   },
   {
@@ -1911,7 +2218,8 @@
     "tags": [
       "feed",
       "blog",
-      "podcast"
+      "podcast",
+      "notícias"
     ]
   },
   {
@@ -1940,7 +2248,8 @@
     "tags": [
       "salvar",
       "floppy",
-      "disk"
+      "disk",
+      "disquete"
     ]
   },
   {
@@ -1949,7 +2258,9 @@
     "tags": [
       "focus",
       "frame",
-      "escanear"
+      "escanear",
+      "foco",
+      "moldura"
     ]
   },
   {
@@ -1968,7 +2279,9 @@
       "find",
       "buscar",
       "lupa",
-      "procurar"
+      "procurar",
+      "pesquisar",
+      "encontrar"
     ]
   },
   {
@@ -1977,7 +2290,9 @@
     "tags": [
       "enviar",
       "paper plane",
-      "submit"
+      "submit",
+      "avião de papel",
+      "submeter"
     ]
   },
   {
@@ -1987,7 +2302,8 @@
       "servidor",
       "hosting",
       "backend",
-      "rack"
+      "rack",
+      "hospedagem"
     ]
   },
   {
@@ -2006,7 +2322,9 @@
     "category": "actions",
     "tags": [
       "compartilhar",
-      "network"
+      "network",
+      "rede",
+      "enviar"
     ]
   },
   {
@@ -2016,7 +2334,8 @@
       "security",
       "protection",
       "proteção",
-      "segurança"
+      "segurança",
+      "escudo"
     ]
   },
   {
@@ -2025,7 +2344,10 @@
     "tags": [
       "warning",
       "security",
-      "risco"
+      "risco",
+      "segurança",
+      "alerta",
+      "escudo"
     ]
   },
   {
@@ -2034,7 +2356,9 @@
     "tags": [
       "security",
       "segurança",
-      "verified"
+      "verified",
+      "escudo",
+      "verificado"
     ]
   },
   {
@@ -2052,7 +2376,8 @@
     "category": "media",
     "tags": [
       "random",
-      "aleatório"
+      "aleatório",
+      "embaralhar"
     ]
   },
   {
@@ -2060,7 +2385,9 @@
     "category": "interface",
     "tags": [
       "panel",
-      "layout"
+      "layout",
+      "painel",
+      "barra lateral"
     ]
   },
   {
@@ -2070,7 +2397,9 @@
       "network",
       "sinal",
       "cell",
-      "bars"
+      "bars",
+      "rede",
+      "celular"
     ]
   },
   {
@@ -2078,7 +2407,9 @@
     "category": "media",
     "tags": [
       "previous",
-      "anterior"
+      "anterior",
+      "voltar",
+      "faixa anterior"
     ]
   },
   {
@@ -2086,7 +2417,9 @@
     "category": "media",
     "tags": [
       "next",
-      "próximo"
+      "próximo",
+      "avançar",
+      "próxima faixa"
     ]
   },
   {
@@ -2096,7 +2429,9 @@
       "settings",
       "config",
       "ajustes",
-      "filters"
+      "filters",
+      "filtros",
+      "configurações"
     ]
   },
   {
@@ -2105,7 +2440,8 @@
     "tags": [
       "mobile",
       "celular",
-      "phone"
+      "phone",
+      "telefone"
     ]
   },
   {
@@ -2114,7 +2450,9 @@
     "tags": [
       "happy",
       "emoji",
-      "feedback"
+      "feedback",
+      "feliz",
+      "sorriso"
     ]
   },
   {
@@ -2164,7 +2502,10 @@
     "category": "interface",
     "tags": [
       "shape",
-      "checkbox"
+      "checkbox",
+      "quadrado",
+      "forma",
+      "caixa de seleção"
     ]
   },
   {
@@ -2173,7 +2514,9 @@
     "tags": [
       "favorite",
       "favorito",
-      "rating"
+      "rating",
+      "estrela",
+      "avaliação"
     ]
   },
   {
@@ -2181,7 +2524,8 @@
     "category": "media",
     "tags": [
       "parar",
-      "square"
+      "square",
+      "quadrado"
     ]
   },
   {
@@ -2227,7 +2571,8 @@
     "category": "devices",
     "tags": [
       "ipad",
-      "device"
+      "device",
+      "dispositivo"
     ]
   },
   {
@@ -2237,7 +2582,8 @@
       "price",
       "preço",
       "label",
-      "etiqueta"
+      "etiqueta",
+      "rótulo"
     ]
   },
   {
@@ -2266,7 +2612,8 @@
       "console",
       "cli",
       "shell",
-      "command"
+      "command",
+      "linha de comando"
     ]
   },
   {
@@ -2284,7 +2631,9 @@
     "tags": [
       "dislike",
       "não gostei",
-      "reject"
+      "reject",
+      "rejeitar",
+      "descurtir"
     ]
   },
   {
@@ -2294,7 +2643,8 @@
       "like",
       "curtir",
       "approve",
-      "gostei"
+      "gostei",
+      "aprovar"
     ]
   },
   {
@@ -2332,7 +2682,10 @@
     "tags": [
       "switch",
       "on",
-      "ligado"
+      "ligado",
+      "interruptor",
+      "ligar",
+      "desligar"
     ]
   },
   {
@@ -2408,7 +2761,8 @@
       "television",
       "televisão",
       "screen",
-      "streaming"
+      "streaming",
+      "tela"
     ]
   },
   {
@@ -2428,7 +2782,8 @@
       "text",
       "font",
       "texto",
-      "fonte"
+      "fonte",
+      "tipografia"
     ]
   },
   {
@@ -2445,7 +2800,8 @@
     "name": "underline",
     "category": "editor",
     "tags": [
-      "sublinhado"
+      "sublinhado",
+      "texto"
     ]
   },
   {
@@ -2453,7 +2809,9 @@
     "category": "arrows",
     "tags": [
       "desfazer",
-      "back"
+      "back",
+      "seta",
+      "voltar"
     ]
   },
   {
@@ -2461,7 +2819,10 @@
     "category": "actions",
     "tags": [
       "open",
-      "desbloquear"
+      "desbloquear",
+      "abrir",
+      "destrancar",
+      "cadeado aberto"
     ]
   },
   {
@@ -2469,7 +2830,9 @@
     "category": "actions",
     "tags": [
       "enviar",
-      "import"
+      "import",
+      "importar",
+      "subir arquivo"
     ]
   },
   {
@@ -2489,7 +2852,9 @@
     "tags": [
       "approved",
       "verified user",
-      "aprovado"
+      "aprovado",
+      "usuário",
+      "verificado"
     ]
   },
   {
@@ -2497,7 +2862,8 @@
     "category": "communication",
     "tags": [
       "remove user",
-      "remover"
+      "remover",
+      "usuário"
     ]
   },
   {
@@ -2506,7 +2872,9 @@
     "tags": [
       "invite",
       "convidar",
-      "add user"
+      "add user",
+      "usuário",
+      "adicionar"
     ]
   },
   {
@@ -2515,7 +2883,9 @@
     "tags": [
       "remove",
       "block user",
-      "bloquear"
+      "bloquear",
+      "usuário",
+      "remover"
     ]
   },
   {
@@ -2525,7 +2895,10 @@
       "team",
       "time",
       "group",
-      "pessoas"
+      "pessoas",
+      "grupo",
+      "equipe",
+      "usuários"
     ]
   },
   {
@@ -2545,7 +2918,9 @@
       "camera",
       "film",
       "vídeo",
-      "meeting"
+      "meeting",
+      "câmera",
+      "reunião"
     ]
   },
   {
@@ -2553,7 +2928,9 @@
     "category": "media",
     "tags": [
       "camera off",
-      "câmera desligada"
+      "câmera desligada",
+      "vídeo",
+      "sem câmera"
     ]
   },
   {
@@ -2563,7 +2940,9 @@
       "sound",
       "som",
       "audio",
-      "speaker"
+      "speaker",
+      "alto-falante",
+      "áudio"
     ]
   },
   {
@@ -2572,7 +2951,9 @@
     "tags": [
       "mute",
       "mudo",
-      "silent"
+      "silent",
+      "sem som",
+      "silencioso"
     ]
   },
   {
@@ -2591,7 +2972,8 @@
     "tags": [
       "smartwatch",
       "relógio",
-      "wearable"
+      "wearable",
+      "relógio de pulso"
     ]
   },
   {
@@ -2611,7 +2993,9 @@
     "tags": [
       "internet",
       "connection",
-      "rede"
+      "rede",
+      "conexão",
+      "sem fio"
     ]
   },
   {
@@ -2620,7 +3004,9 @@
     "tags": [
       "vento",
       "air",
-      "breeze"
+      "breeze",
+      "ar",
+      "brisa"
     ]
   },
   {
@@ -2630,7 +3016,10 @@
       "tool",
       "ferramenta",
       "fix",
-      "settings"
+      "settings",
+      "chave inglesa",
+      "consertar",
+      "configurações"
     ]
   },
   {
@@ -2640,7 +3029,10 @@
       "close",
       "fechar",
       "cancel",
-      "remove"
+      "remove",
+      "cancelar",
+      "remover",
+      "xis"
     ]
   },
   {
@@ -2649,7 +3041,9 @@
     "tags": [
       "error",
       "fail",
-      "falha"
+      "falha",
+      "erro",
+      "cancelar"
     ]
   },
   {
@@ -2679,7 +3073,9 @@
       "lightning",
       "fast",
       "raio",
-      "energia"
+      "energia",
+      "rápido",
+      "relâmpago"
     ]
   },
   {
@@ -2687,14 +3083,18 @@
     "category": "actions",
     "tags": [
       "magnify",
-      "ampliar"
+      "ampliar",
+      "aumentar",
+      "lupa"
     ]
   },
   {
     "name": "zoom-out",
     "category": "actions",
     "tags": [
-      "reduzir"
+      "reduzir",
+      "diminuir",
+      "lupa"
     ]
   }
 ]

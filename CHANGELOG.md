@@ -2,6 +2,11 @@
 
 All notable changes to salve-icons. The project follows [semantic versioning](https://semver.org/).
 
+## 0.2.1
+
+- Portuguese search terms for 204 icons (400 new tags), so searching in Portuguese finds what you expect: every arrow and chevron answers to "seta", and terms like "círculo", "quadrado", "estrela", "coração", "usuário", "hambúrguer", "lupa" and "configurações" now match.
+- Only `icons.json` changes (it's what galleries and search use). No changes to the icons or any format.
+
 ## 0.2.0
 
 - New `salve-icons/sprite` module for an in-page sprite: `injectSprite()` (browser, once), `spriteSheet` (markup for SSR) and `useIcon(name)`. Symbols use `si-` prefixed ids, so they never clash with page ids.
